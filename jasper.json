@@ -1,10 +1,31 @@
 [	{
+		"index": 13,
+		"year": "2019",
+		"month": "Februar",
+		"person1": "red",
+		"person2": "green"
+	},
+	{
+		"index": 12,
+		"year": "2019",
+		"month": "Januar",
+		"person1": "red",
+		"person2": "green"
+	},
+	{
+		"index": 11,
+		"year": "2018",
+		"month": "Dezember",
+		"person1": "red",
+		"person2": "green"
+{
 		"index": 10,
 		"year": "2018",
 		"month": "November",
 		"person1": "red",
 		"person2": "green"
-	},
+	},	},
+ 
  	{
 		"index": 9,
 		"year": "2018",
