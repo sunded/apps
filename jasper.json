@@ -1,12 +1,20 @@
 [
   {
 		"index": 0,
-		"about": "red",
-		"name": "Luca"
+		"month": "Januar",
+		"person1": "red",
+	  	"person2": "red"
 	},
 	{
 		"index": 1,
-		"about": "green",
-		"name": "Jonas"
+		"month": "Februar",
+		"person1": "green",
+		"person2": "red"
+	},
+	{
+		"index": 3,
+		"month": "März",
+		"person1": "green",
+	  	"person2": "green"
 	}
 ]
