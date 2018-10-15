@@ -8,13 +8,13 @@
 	{
 		"index": 1,
 		"month": "Februar",
-		"person1": "0xFF42A5F5",
-		"person2": "red"
+		"person1": 60,
+		"person2": 120
 	},
 	{
 		"index": 2,
 		"month": "März",
-		"person1": "0xFF42A5F5",
-		"person2": "green"
+		"person1": 60,
+		"person2": 170
 	}
 ]
