@@ -2,14 +2,14 @@
 	{
 		"index": 0,
 		"month": "Januar",
-		"person1": 60,
-		"person2": 120
+		"person1": "red",
+		"person2": "green"
 	},
 	{
 		"index": 1,
 		"month": "Februar",
-		"person1": 60,
-		"person2": 120
+		"person1": "red",
+		"person2": "green"
 	},
 	{
 		"index": 2,
