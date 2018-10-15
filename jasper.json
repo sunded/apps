@@ -1,9 +1,9 @@
 [
-  {
+	{
 		"index": 0,
 		"month": "Januar",
 		"person1": "Colors.red",
-	  	"person2": "Colors.red"
+		"person2": "Colors.red"
 	},
 	{
 		"index": 1,
@@ -15,6 +15,6 @@
 		"index": 2,
 		"month": "März",
 		"person1": "Colors.green",
-	  	"person2": "Colors.green"
+		"person2": "Colors.green"
 	}
 ]
