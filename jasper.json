@@ -14,7 +14,7 @@
 	{
 		"index": 2,
 		"month": "März",
-		"person1": 60,
-		"person2": 170
+		"person1": "green",
+		"person2": "red"
 	}
 ]
