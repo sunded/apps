@@ -1,100 +1,15 @@
-[	{
-		"index": 13,
-		"year": "2019",
-		"month": "Februar",
-		"person1": "red",
-		"person2": "green"
-	},
-	{
-		"index": 12,
-		"year": "2019",
-		"month": "Januar",
-		"person1": "#CD5C5C",
-		"person2": "green"
-	},
-	{
-		"index": 11,
-		"year": "2018",
-		"month": "Dezember",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 10,
-		"year": "2018",
-		"month": "November",
-		"person1": "red",
-		"person2": "green"
-	},	
- 	{
-		"index": 9,
-		"year": "2018",
-		"month": "Oktober",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 8,
-		"year": "2018",
-		"month": "September",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 7,
-		"year": "2018",
-		"month": "August",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 6,
-		"year": "2018",
-		"month": "Juli",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 5,
-		"year": "2018",
-		"month": "Juni",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 4,
-		"year": "2018",
-		"month": "Mai",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 3,
-		"year": "2018",
-		"month": "April",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
-		"index": 2,
-		"year": "2018",
-		"month": "März",
-		"person1": "red",
-		"person2": "green"
-	},
- 	{
+[{
 		"index": 1,
-		"year": "2018",
+		"year": "2019",
 		"month": "Februar",
-		"person1": "red",
+		"person1": "#CD5C5C",
 		"person2": "green"
 	},
 	{
 		"index": 0,
 		"year": "2018",
 		"month": "Januar",
-		"person1": "red",
+		"person1": "#CD5C5C",
 		"person2": "green"
 	}
-
 ]
