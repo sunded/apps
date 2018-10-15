@@ -2,14 +2,14 @@
 		"index": 1,
 		"year": "2019",
 		"month": "Februar",
-		"person1": "#CD5C5C",
+		"person1": "Icons.done",
 		"person2": "color: Colors.green"
 	},
 	{
 		"index": 0,
 		"year": "2018",
 		"month": "Januar",
-		"person1": "#CD5C5C",
+		"person1": "Icons.done",
 		"person2": "color: Colors.green"
 	}
 ]
