@@ -2,8 +2,8 @@
 	{
 		"index": 0,
 		"month": "Januar",
-		"person1": "0xFF42A5F5",
-		"person2": "red"
+		"person1": 60,
+		"person2": 120
 	},
 	{
 		"index": 1,
