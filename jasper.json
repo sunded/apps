@@ -1,10 +1,4 @@
 [
- 	{
-		"index": 12,
-		"date": "16.10",
-		"name": "Luca",
-		"price": "12€"
-	},
 	{
 		"index": 11,
 		"year": "2018",
@@ -27,7 +21,12 @@
 		"niko190": 0,
 		"jakob190": 0,
 		"luca190": 0,
-		"luis190": 0
+		"luis190": 0,
+		
+		
+		"date": "16.10",
+		"name": "Luca",
+		"price": "12€"
 	},
 	{
 		"index": 10,
@@ -51,7 +50,11 @@
 		"niko190": 0,
 		"jakob190": 0,
 		"luca190": 190,
-		"luis190": 0
+		"luis190": 0,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 9,
@@ -75,7 +78,11 @@
 		"niko190": 0,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 0
+		"luis190": 0,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 8,
@@ -99,7 +106,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 7,
@@ -123,7 +134,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 6,
@@ -147,7 +162,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 5,
@@ -171,7 +190,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 4,
@@ -195,7 +218,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 3,
@@ -219,7 +246,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 2,
@@ -243,7 +274,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 1,
@@ -267,7 +302,11 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	},
 	{
 		"index": 0,
@@ -291,6 +330,10 @@
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
-		"luis190": 190
+		"luis190": 190,
+		
+		"date":
+		"name":
+		"price":
 	}
 ]
