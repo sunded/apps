@@ -1,13 +1,24 @@
 [{
-		"index": 1,
-		"title": "Wie ihr seht habe ich nun endlich meine App fertig programmiert! Ich bin stolz und froh, euch nun diese einfachere und schnellere Variante bieten zu können. Ich hoffe sie gefällt euch und es funktioniert alle, ich würde mich über Feedback jeglicher art freuen.",
+		"index": 3,
+		"title": "Übrigens...",
 		"info": "16.10.2018",
-		"date": "News!"
+		"date": "Auf dieser Seite werden Mitteilungen und auch Zahlungen angezeigt werden!"
+	},
+		"index": 2,
+		"title": "News!",
+		"info": "16.10.2018",
+		"date": "Wie ihr seht habe ich nun endlich meine App fertig programmiert! Ich bin stolz und froh euch nun diese einfachere und schnellere Variante bieten zu können. Ich hoffe sie gefällt euch und sie funtioniert bei euch, ich würde mich über Feedback jeglicher Art freuen."
+	},
+	{
+		"index": 1,
+		"title": "Jakob",
+		"info": "5€, 2x Spotify",
+		"date": "15.10.2018"
 	},
 	{
 		"index": 0,
 		"title": "Luca",
-		"info": "12€",
+		"info": "12€, 2x Netflix 2x Spotify",
 		"date": "16.10.2018"
 	}
 ]
