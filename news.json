@@ -1,14 +1,14 @@
 [{
 		"index": 3,
 		"title": "Übrigens...",
-		"info": "16.10.2018",
-		"date": "Auf dieser Seite werden Mitteilungen und auch Zahlungen angezeigt werden!"
+		"info": "Auf dieser Seite werden Mitteilungen und auch Zahlungen angezeigt werden!",
+		"date": "16.10.2018"
 	},
  	{
 		"index": 2,
 		"title": "News!",
-		"info": "16.10.2018",
-		"date": "Wie ihr seht habe ich nun endlich meine App fertig programmiert! Ich bin stolz und froh euch nun diese einfachere und schnellere Variante bieten zu können. Ich hoffe sie gefällt euch und sie funtioniert bei euch, ich würde mich über Feedback jeglicher Art freuen."
+		"info": "Wie ihr seht habe ich nun endlich meine App fertig programmiert! Ich bin stolz und froh euch nun diese einfachere und schnellere Variante bieten zu können. Ich hoffe sie gefällt euch und sie funtioniert bei euch, ich würde mich über Feedback jeglicher Art freuen.",
+		"date": "16.10.2018"
 	},
 	{
 		"index": 1,
