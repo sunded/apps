@@ -1,17 +1,18 @@
-[{
-		"index": 1,
-		"year": "2019",
-	
-		"month": "Februar",
-		"person1": "https://loremflickr.com/500/500",
-		"person2": "color: Colors.green"
-	},
+[
 	{
 		"index": 0,
 		"year": "2018",
-		
 		"month": "Januar",
-		"person1": "https://loremflickr.com/500/500",
-		"person2": "color: Colors.green"
-	}
+		"lilly255": 0,
+		"niko255": 0,
+		"jakob255": 0,
+		"luca255": 0,
+		"luis255": 0,
+		
+		"lilly190": 190,
+		"niko190": 190,
+		"jakob190": 190,
+		"luca190": 190,
+		"luis190": 190
+	},
 ]
