@@ -1,6 +1,14 @@
-[{
+[
+	{
+	"index": 0,
+	"title": "Wie ihr seht habe ich nun endlich meine App fertig programmiert! Ich bin stolz und froh, euch nun diese einfachere und schnellere Variante bieten zu können. Ich hoffe sie gefällt euch und es funktioniert alle, ich würde mich über Feedback jeglicher art freuen.",
+	"info": "16.10.2018",
+	"date": "News!"
+},
+	{
 	"index": 0,
 	"title": "Luca",
 	"info": "12€",
 	"date": "16.10.2018"
-}]
+}
+]
