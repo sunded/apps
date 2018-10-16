@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"index": 11,
 		"year": "2018",
 		"month": "Dezember",
@@ -8,21 +7,21 @@
 		"jakob255": 255,
 		"luca255": 255,
 		"luis255": 255,
-		
+
 		"lara255n": 255,
 		"lara190n": 0,
 		"luca255n": 255,
 		"luca190n": 0,
 		"niko255n": 255,
 		"niko190n": 0,
-		
+
 
 		"lilly190": 0,
 		"niko190": 0,
 		"jakob190": 0,
 		"luca190": 0,
 		"luis190": 0
-		
+
 	},
 	{
 		"index": 10,
@@ -33,14 +32,14 @@
 		"jakob255": 255,
 		"luca255": 0,
 		"luis255": 255,
-		
+
 		"lara255n": 255,
 		"lara190n": 0,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 255,
 		"niko190n": 0,
-		
+
 
 		"lilly190": 0,
 		"niko190": 0,
@@ -57,14 +56,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 255,
-		
+
 		"lara255n": 255,
 		"lara190n": 0,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 255,
 		"niko190n": 0,
-		
+
 
 		"lilly190": 0,
 		"niko190": 0,
@@ -81,21 +80,21 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-		
+
 		"lara255n": 255,
 		"lara190n": 0,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 0,
 		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
-		
+
 	},
 	{
 		"index": 7,
@@ -106,14 +105,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-		
+
 		"lara255n": 255,
 		"lara190n": 0,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 0,
 		"niko190": 190,
@@ -130,14 +129,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-		
+
 		"lara255n": 255,
 		"lara190n": 0,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
@@ -154,14 +153,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-		
+
 		"lara255n": 0,
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
@@ -178,14 +177,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-	
+
 		"lara255n": 0,
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
@@ -202,14 +201,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-	
+
 		"lara255n": 0,
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
@@ -226,14 +225,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-	
+
 		"lara255n": 0,
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
@@ -250,14 +249,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-	
+
 		"lara255n": 0,
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
@@ -274,14 +273,14 @@
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
-	
+
 		"lara255n": 0,
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
-		
+
 
 		"lilly190": 190,
 		"niko190": 190,
