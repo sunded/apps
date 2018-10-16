@@ -1,4 +1,11 @@
-[{
+[
+ 	{
+		"index": 12,
+		"date": "16.10",
+		"name": "Luca",
+		"price": "12€"
+	},
+	{
 		"index": 11,
 		"year": "2018",
 		"month": "Dezember",
