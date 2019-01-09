@@ -154,7 +154,7 @@
 		"month": "November",
 		"lilly255": 0,
 		"niko255": 255,
-		"jakob255": 255,
+		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
 
@@ -168,7 +168,7 @@
 
 		"lilly190": 190,
 		"niko190": 0,
-		"jakob190": 0,
+		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
 	},
