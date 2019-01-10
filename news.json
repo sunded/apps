@@ -1,4 +1,10 @@
 [{
+		"index": 8,
+		"title": "Niko",
+		"info": "24€, 4x Netflix 4x Spotify",
+		"date": "10.01.2019"
+	},
+        {
 		"index": 7,
 		"title": "Jakob",
 		"info": "10€, 4x Spotify",
