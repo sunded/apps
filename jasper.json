@@ -2,11 +2,11 @@
 		"index": 23,
 		"year": "2019",
 		"month": "Dezember",
-		"lilly255": 0,
-		"niko255": 0,
-		"jakob255": 0,
-		"luca255": 0,
-		"luis255": 0,
+		"lilly255": 255,
+		"niko255": 255,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
 
 		"lara255n": 255,
 		"lara190n": 0,
@@ -16,11 +16,11 @@
 		"niko190n": 0,
 
 
-		"lilly190": 0,
-		"niko190": 0,
-		"jakob190": 0,
-		"luca190": 0,
-		"luis190": 0
+		"lilly190": 80,
+		"niko190": 140,
+		"jakob190": 120,
+		"luca190": 100,
+		"luis190": 90
 
 	},
  {
