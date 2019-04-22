@@ -1,0 +1,166 @@
+* {
+  margin: auto;
+}
+
+.container {
+   margin:0em auto; /* this will center the page */
+   width:960px; /*  use your width here */
+   background-color: #e1eaed;
+}
+
+.body {
+  background-color: white;
+  width: 960px;
+
+}
+.topnav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color:#7ec9ac;
+  overflow: hidden;
+  margin-bottom: 1em;
+  width: 960px;
+  margin-top: 3em;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.9em 0.95em;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: FireBrick;
+  color: gold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #629984;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  font-size: 2em;
+  font-weight: 500;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  top: 0;
+  background-color:#7ec9ac;
+  overflow: hidden;
+}
+
+.topnav2 {
+  display: none;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  margin-bottom: 1em;
+  width: 100%;
+  background-color: #7ec9ac;
+}
+
+.topnav2 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.9em 0.95em;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.topnav2 a:hover {
+  background-color: FireBrick;
+  color: gold;
+}
+
+.active2 {
+  display: none;
+}
+
+.menu {
+  display: none;
+
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media only screen and (max-width: 960px) {
+  .topnav{
+  display: none;
+  }
+
+  .menu a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.4em 0.95em;
+    text-decoration: none;
+    padding-left: 1.2rem;
+  }
+  .menu a:not(.active2) {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.9em 0.95em;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .active2 {
+    float: left;
+    font-weight: 500;
+    font-size: 2em;
+
+  }
+  .menu {
+    display: block;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+    background-color:#7ec9ac;
+    overflow: hidden;
+    width: 100%;
+
+  }
+.icon {
+    float: right;
+  }
+
+  .active2 {
+    display: block;
+  }
+
+  .topnav2.responsive {
+    display: block;
+    background-color: #7ec9ac;
+
+    padding: -1.5em;
+  }
+  .topnav2.responsive a{
+    display: block;
+    background-color: #7ec9ac;
+    width: 100%;
+    margin: -0.5em;
+  }
+
+
+
+   .container {
+     width: auto;
+   }
+
+
+}
