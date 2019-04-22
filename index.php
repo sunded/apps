@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <?php
     include 'header.php';
@@ -57,3 +58,4 @@
       ?>
 </div>
 </div>
+</html>
