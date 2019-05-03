@@ -1,4 +1,15 @@
 [{
+		"index": 13,
+		"title": "NEWS",
+		"info": "Ab Mai kostet Netflix 4€",
+		"date": "01.05.2019"
+	},{
+		"index": 12,
+		"title": "Luca",
+		"info": "10.50€, 3x Netflix",
+		"date": "01.05.2019"
+	},
+ 	{
 		"index": 11,
 		"title": "Luca",
 		"info": "5€, 2x Spotify",
