@@ -3,7 +3,7 @@
 		"year": "2019",
 		"month": "Dezember",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 255,
 		"luca255": 255,
 		"luis255": 255,
@@ -17,7 +17,7 @@
 
 
 		"lilly190": 45,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 45,
 		"luca190": 45,
 		"luis190": 45
@@ -28,7 +28,7 @@
 		"year": "2019",
 		"month": "November",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 255,
 		"luca255": 0,
 		"luis255": 255,
@@ -42,7 +42,7 @@
 
 
 		"lilly190": 45,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 45,
 		"luca190": 190,
 		"luis190": 45
@@ -53,7 +53,7 @@
 		"year": "2019",
 		"month": "Oktober",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 255,
@@ -67,7 +67,7 @@
 
 
 		"lilly190": 45,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 45
@@ -78,7 +78,7 @@
 		"year": "2019",
 		"month": "September",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -92,7 +92,7 @@
 
 
 		"lilly190": 45,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -102,8 +102,8 @@
 		"index": 19,
 		"year": "2019",
 		"month": "August",
-		"lilly255": 255,
-		"niko255": 255,
+		"lilly255": 0,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -116,8 +116,8 @@
 		"niko190n": 190,
 
 
-		"lilly190": 45,
-		"niko190": 45,
+		"lilly190": 190,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -127,8 +127,8 @@
 		"index": 18,
 		"year": "2019",
 		"month": "Juli",
-		"lilly255": 255,
-		"niko255": 255,
+		"lilly255": 0,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -141,8 +141,8 @@
 		"niko190n": 190,
 
 
-		"lilly190": 45,
-		"niko190": 45,
+		"lilly190": 190,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -152,8 +152,8 @@
 		"index": 17,
 		"year": "2019",
 		"month": "Juni",
-		"lilly255": 255,
-		"niko255": 255,
+		"lilly255": 0,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -166,8 +166,8 @@
 		"niko190n": 190,
 
 
-		"lilly190": 45,
-		"niko190": 45,
+		"lilly190": 190,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -177,8 +177,8 @@
 		"index": 16,
 		"year": "2019",
 		"month": "Mai",
-		"lilly255": 255,
-		"niko255": 255,
+		"lilly255": 0,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -191,8 +191,8 @@
 		"niko190n": 190,
 
 
-		"lilly190": 45,
-		"niko190": 45,
+		"lilly190": 190,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
