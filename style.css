@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli';
+}
+
+:root {
+  --maincolor: rgb(77, 133, 148);
+  --main: rgb(71, 175, 179);
+  --gray: rgb(150, 150, 150);
+  --maindark: rgb(50, 130, 133);
+  --mainlight: rgb(175, 255, 255);
+}
+
+
+.mobile-header {
+  background-color: white;
+  padding: 25px;
+  border: 0px;
+  border-bottom: 2px;
+  border-color: rgb(210, 210, 210);
+  border-style: solid;
+  z-index: 1;
+  position:relative;
+  top: 0px;
+}
+.mobile-header i{
+    float: right;
+    color: var(--gray);
+    margin-top: -10px;
+  }
+.mobile-header p {
+    float: left;
+    color: var(--gray);
+    margin-top: -10px;
+    font-weight: 400;
+  }
+
+.start {
+  background-color: var(--main);
+  height: 100vh;
+  text-align: center;
+  margin-top: -52px;
+}
+.start article {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+.start p1{
+  color: var(--mainlight);
+  font-size: 3em;
+  font-weight: 600;
+}
+.start h1 {
+  color: var(--maindark);
+  font-size: 0.8em;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.start i {
+  color: var(--maindark);
+  top:95%;
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%);
+}
+.wwd {
+  height: 200vh;
+  background-color: rgb(235, 235, 235);
+}
+.wwd p {
+  color: black;
+  text-align: left;
+  font-size: 1.6em;
+  padding: 40px 70px 20px 20px;
+  font-weight: 800;
+}
+.Design {
+  background-color: white;
+  height: 110px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+.Design i {
+  float: left;
+  font-size: 3em;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Design article {
+  width: 70%;
+  float: right;
+}
+.Design p1{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.Design p2 {
+  color: black;
+  font-size: 0.8em;
+}
+
+.Coding {
+  background-color: white;
+  height: 110px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.Coding i {
+  float: left;
+  font-size: 3em;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Coding article {
+  width: 70%;
+  float: right;
+}
+.Coding p1{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.Coding p2 {
+  color: black;
+  font-size: 0.8em;
+}
