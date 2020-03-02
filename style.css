@@ -81,6 +81,7 @@
     padding: 15px;
     float: right;
     color: var(--gray);
+
   }
 .mobile-header p {
     float: left;
@@ -100,12 +101,12 @@
   width: 100%;
 }
 .start p1{
-  color: var(--mainlight);
+  color: white;
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 800;
 }
 .start h1 {
-  color: var(--maindark);
+  color: var(--mainlight);
   font-size: 0.8em;
   font-weight: 400;
   padding-top: 10px;
