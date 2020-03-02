@@ -3,6 +3,9 @@
   padding: 0;
   font-family: 'Muli';
 }
+*:focus {
+    outline: 0 !important;
+}
 
 :root {
   --maincolor: rgb(77, 133, 148);
@@ -12,27 +15,77 @@
   --mainlight: rgb(175, 255, 255);
 }
 
-
-.mobile-header {
+.cookies {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
   background-color: white;
-  padding: 25px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+  transition-duration: 1s;
+  width: 100%;
+}
+.cookies article {
+  padding-left: 20px;
+    display:inline-flex;
+    align-items: center;
+
+}
+.cookies button {
+  padding: 10px;
+  margin-top: -25px;
+  margin-right: 5%;
+  margin-left: 2%;
+  float: right;
+  background-color: var(--main);
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border: none;
+  border-radius: 5px;
+
+  }.cookies button:hover {
+    background-color: var(--maindark);
+    transition-duration: 0.3s;
+}
+
+
+.cookies p1 {
+  float: left;
+  color: var(--gray);
+  font-size: 0.8em;
+}
+.cookies p {
+  float: left;
+  font-size: 1.4em;
+  font-weight: 800;
+  padding-left: 20px;
+  width: 100%;
+}
+.mobile-header {
+  width: 100%;
+  background-color: white;
   border: 0px;
   border-bottom: 2px;
   border-color: rgb(210, 210, 210);
   border-style: solid;
+  position: absolute;
+  height: 50px;
   z-index: 1;
-  position:relative;
   top: 0px;
+  display:inline;
+  align-items: center;
 }
 .mobile-header i{
+    padding: 15px;
     float: right;
     color: var(--gray);
-    margin-top: -10px;
   }
 .mobile-header p {
     float: left;
+    padding: 15px;
     color: var(--gray);
-    margin-top: -10px;
     font-weight: 400;
   }
 
@@ -40,7 +93,6 @@
   background-color: var(--main);
   height: 100vh;
   text-align: center;
-  margin-top: -52px;
 }
 .start article {
   position: absolute;
@@ -85,6 +137,12 @@
   align-items: center;
   margin-left: 5%;
   margin-bottom: 20px;
+  box-shadow: 0px 10px 10px rgb(222, 222, 222);
+  transition-duration: 0.2s;
+}
+.Design:hover {
+  height: 160px;
+  transition-duration: 0.2s;
 }
 .Design i {
   float: left;
@@ -115,6 +173,13 @@
   display: flex;
   align-items: center;
   margin-left: 5%;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px rgb(222, 222, 222);
+  transition-duration: 0.2s;
+}
+.Coding:hover {
+  height: 160px;
+  transition-duration: 0.2s;
 }
 .Coding i {
   float: left;
@@ -133,6 +198,150 @@
   font-weight: 800;
 }
 .Coding p2 {
+  color: black;
+  font-size: 0.8em;
+}
+.Business {
+  background-color: white;
+  height: 110px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px rgb(222, 222, 222);
+  transition-duration: 0.2s;
+}
+.Business:hover {
+  height: 160px;
+  transition-duration: 0.2s;
+}
+.Business i {
+  float: left;
+  font-size: 3em;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Business article {
+  width: 70%;
+  float: right;
+}
+.Business p1{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.Business p2 {
+  color: black;
+  font-size: 0.8em;
+}
+.Hosting {
+  background-color: white;
+  height: 110px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px rgb(222, 222, 222);
+  transition-duration: 0.2s;
+}
+.Hosting:hover {
+  height: 160px;
+  transition-duration: 0.2s;
+}
+.Hosting i {
+  float: left;
+  font-size: 3em;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Hosting article {
+  width: 70%;
+  float: right;
+}
+.Hosting p1{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.Hosting p2 {
+  color: black;
+  font-size: 0.8em;
+}
+.Pics {
+  background-color: white;
+  height: 110px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px rgb(222, 222, 222);
+  transition-duration: 0.2s;
+}
+.Pics:hover {
+  height: 160px;
+  transition-duration: 0.2s;
+}
+.Pics i {
+  float: left;
+  font-size: 3em;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Pics article {
+  width: 70%;
+  float: right;
+}
+.Pics p1{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.Pics p2 {
+  color: black;
+  font-size: 0.8em;
+}
+.Werbung {
+  background-color: white;
+  height: 110px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px rgb(222, 222, 222);
+  transition-duration: 0.2s;
+}
+.Werbung:hover {
+  height: 160px;
+  transition-duration: 0.2s;
+}
+.Werbung i {
+  float: left;
+  font-size: 3em;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Werbung article {
+  width: 70%;
+  float: right;
+}
+.Werbung p1{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.Werbung p2 {
   color: black;
   font-size: 0.8em;
 }
