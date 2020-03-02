@@ -9,6 +9,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
   </head>
+    <script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("scrollup").style.top = "90%";
+  } else {
+    document.getElementById("scrollup").style.top = "100%";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    </script>
   <body>
     <!--Cookies-->
     <div class="cookies">
@@ -17,14 +29,15 @@
         <p1>Diese Seite verwendet Cookies. Mit der Benutzung dieser Seite verstehen Sie sich Einverstanden</p1>
         <button class="cookiebtn" onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Okay</button>
       </article>
-
-
     </div>
-    <div class="wrapper">
+
+    <div class="wrapper"  id="start">
+      <i0 id="scrollup" class="material-icons-round" onClick="document.getElementById('start').scrollIntoView();">keyboard_arrow_down</i0>
+
       <!--Mobile Header-->
       <div class="mobile-header">
         <p>SpiderSites</p>
-        <i class="material-icons-round">menu</i>
+        <i class="material-icons-round" onClick="document.getElementById('start').scrollIntoView();">menu</i>
       </div>
       <!--Start-->
       <div class="start">
@@ -32,10 +45,10 @@
           <p1>Mehr Kunden<br>weniger Kosten</p1>
           <h1>Die perfekte Website für Ihr Unternehmen<br>Mit der richtigen Website erreichen Sie noch mehr Kunden <br>Bei SpiderSites sogar für wenig Geld</h1>
         </article>
-          <i class="material-icons-round">keyboard_arrow_down</i>
+          <i class="material-icons-round" onClick="document.getElementById('second').scrollIntoView();">keyboard_arrow_down</i>
         </div>
         <!--Was tu ich(Design, Programmierung, SEO)-->
-        <div class="wwd">
+        <div class="wwd" id="second">
           <p>SpiderSites kümmert sich um...</p>
           <div class="Design">
             <i class="material-icons-round">create</i>
@@ -83,6 +96,11 @@
         <!--Preise-->
         <!--Kontakt-->
         <!--Footer-->
+        <div class="footer">
+        <a href="#/impressum">Impressum</a>
+        <a href="#/datenschutz">Datenschutz</a>
+        <p>2020 SpiderSites - Sebastian Klenk</p>
+        </div>
       </div>
   </body>
 </html>

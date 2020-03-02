@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Muli';
+   scroll-behavior: smooth;
+   cursor: default;
 }
 *:focus {
     outline: 0 !important;
@@ -14,7 +16,23 @@
   --maindark: rgb(50, 130, 133);
   --mainlight: rgb(175, 255, 255);
 }
-
+.wrapper i0 {
+  color: white;
+  position: fixed;
+  top: 100%;
+  right: 5%;
+  transform: rotate(180deg);
+  cursor: pointer;
+  font-size: 3em;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0.1;
+  transition-duration: 0.2s;
+}
+.wrapper i0:hover{
+  opacity: 0.8;
+  transition-duration: 0.2s;
+}
 .cookies {
   position: fixed;
   z-index: 1;
@@ -88,6 +106,7 @@
     padding: 15px;
     color: var(--gray);
     font-weight: 400;
+    font-size: 1em;
   }
 
 .start {
@@ -97,12 +116,12 @@
 }
 .start article {
   position: absolute;
-  top: 40%;
+  top: 30%;
   width: 100%;
 }
 .start p1{
   color: white;
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 800;
 }
 .start h1 {
@@ -117,6 +136,7 @@
   position: absolute;
   width: 100%;
   transform: translate(-50%);
+  cursor:pointer;
 }
 .wwd {
   height: 200vh;
@@ -345,4 +365,15 @@
 .Werbung p2 {
   color: black;
   font-size: 0.8em;
+}
+.footer {
+  display:inline;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.footer a, p{
+  text-decoration: none;
+  font-size: 0.6em;
+  color: var(--gray);
+  padding-left: 10px;
 }
