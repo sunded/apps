@@ -15,30 +15,55 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("scrollup").style.top = "90%";
+    document.getElementById("mobile-nav").style.top = "0px";
   } else {
     document.getElementById("scrollup").style.top = "100%";
+    document.getElementById("mobile-nav").style.top = "-51px";
   }
   prevScrollpos = currentScrollPos;
 }
     </script>
   <body>
     <!--Cookies-->
-    <div class="cookies">
+    <!--<div class="cookies">
       <p>Cookies</p>
       <article>
         <p1>Diese Seite verwendet Cookies. Mit der Benutzung dieser Seite verstehen Sie sich Einverstanden</p1>
         <button class="cookiebtn" onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Okay</button>
       </article>
-    </div>
+    </div>-->
 
     <div class="wrapper"  id="start">
       <i0 id="scrollup" class="material-icons-round" onClick="document.getElementById('start').scrollIntoView();">keyboard_arrow_down</i0>
 
       <!--Mobile Header-->
-      <div class="mobile-header">
+      <div class="mobile-header" id="mobile-nav">
         <p>SpiderSites</p>
-        <i class="material-icons-round" onClick="document.getElementById('start').scrollIntoView();">menu</i>
+        <i class="material-icons-round">menu</i>
       </div>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <i class="material-icons-round">close</i>
+
+        <a id="mobile-menu-start" onClick="document.getElementById('start').scrollIntoView();" href="#start">Start</a>
+        <a id="mobile-menu-angebot" onClick="document.getElementById('angebot').scrollIntoView();" href="#angebot">Angebot</a>
+        <a id="mobile-menu-preise" onClick="document.getElementById('preise').scrollIntoView();" href="#preise">Preise</a>
+        <a id="mobile-menu-kontakt" onClick="document.getElementById('kontakt').scrollIntoView();" href="#kontakt">Kontakt</a>
+      </div>
+
+      <script>
+       var hamburger = document.querySelector(".mobile-header i");
+       var menuclose = document.querySelector(".mobile-menu");
+        var menu = document.querySelector(".mobile-menu");
+        hamburger.onclick = function () {
+           hamburger.classList.toggle ("checked");
+           menu.classList.toggle ("checked");
+        }
+        menuclose.onclick = function () {
+           menu.classList.toggle ("checked");
+           hamburger.classList.toggle ("checked");
+        }
+      </script>
       <!--Start-->
       <div class="start">
         <article>
@@ -48,7 +73,7 @@ window.onscroll = function() {
           <i class="material-icons-round" onClick="document.getElementById('second').scrollIntoView();">keyboard_arrow_down</i>
         </div>
         <!--Was tu ich(Design, Programmierung, SEO)-->
-        <div class="wwd" id="second">
+        <div class="wwd" id="angebot">
           <p>SpiderSites kümmert sich um...</p>
           <div class="Design">
             <i class="material-icons-round">create</i>
@@ -97,9 +122,11 @@ window.onscroll = function() {
         <!--Kontakt-->
         <!--Footer-->
         <div class="footer">
-        <a href="#/impressum">Impressum</a>
-        <a href="#/datenschutz">Datenschutz</a>
-        <p>2020 SpiderSites - Sebastian Klenk</p>
+          <center><div class="impressum-links">
+              <a id="a" href="#/impressum">Impressum</a>
+              <a id="a1" href="#/datenschutz">Datenschutz</a><br>
+          </div></center>
+        <p id="footer-copyright">2020 SpiderSites - Sebastian Klenk</p>
         </div>
       </div>
   </body>
