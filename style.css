@@ -31,9 +31,8 @@ user-select:none;
   top: 100%;
   right: 5%;
   transform: rotate(180deg);
-  cursor: pointer;
   font-size: 3em;
-  background-color: black;
+  background-color: red;
   border-radius: 50%;
   opacity: 0.1;
   transition-duration: 0.2s;
@@ -194,7 +193,6 @@ user-select:none;
   position: absolute;
   width: 100%;
   transform: translate(-50%);
-  cursor:pointer;
 }
 .wwd {
   background-color: rgb(235, 235, 235);
