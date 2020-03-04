@@ -8,8 +8,8 @@
   --gray: rgb(150, 150, 150);
   --maindark: rgb(50, 130, 133);
   --mainlight: rgb(175, 255, 255);}
-  
-.wrapper i0 { color: white; position: fixed; top: 100%; right: 5%; transform: rotate(180deg); font-size: 3em; background-color: black; border-radius: 50%; opacity: 0.1; transition-duration: 0.2s;}
+
+.wrapper i0 { color: white; position: fixed; top: 100%; right: 5%; transform: rotate(180deg); font-size: 3em; background-color: black; border-radius: 50%; opacity: 0.1; transition-duration: 0.2s;user-select:none;}
 .wrapper i0:hover{ transition-duration: 0.2s;}
 
 .cookies { position: fixed; z-index: 1; bottom: 0; background-color: white; padding-bottom: 30px; padding-top: 25px; transition-duration: 1s; width: 100%;}
@@ -45,16 +45,16 @@
 .wwd { background-color: rgb(235, 235, 235); padding-bottom: 20px;}
 .wwd p { color: black; text-align: left; font-size: 1.6em; padding: 35px 115px 35px 25px; font-weight: 800; text-align: left;}
 
-.Design, .Coding, .Business, .Hosting, .Pics, .Werbung, .Merchendise, .Logo { background-color: white; height: 110px; width: 90%; border-radius: 10px; display: flex; align-items: center; margin-left: 5%; margin-bottom: 20px; box-shadow: 0px 10px 10px rgb(222, 222, 222); transition-duration: 0.2s;}
-.Design:hover, .Coding:hover, .Business:hover, .Hosting:hover, .Pics:hover, .Werbung:hover, .Merchendise:hover, .Logo:hover { height: 160px; transition-duration: 0.2s;}
-.Design:hover p3, .Coding:hover p3, .Business:hover p3, .Hosting:hover p3, .Pics:hover p3, .Werbung:hover p3, .Merchendise:hover p3, .Logo:hover p3 { display: block;}
-.Design:hover p2, .Coding:hover p2, .Business:hover p2, .Hosting:hover p2, .Pics:hover p2, .Werbung:hover p2, .Merchendise:hover p2, .Logo:hover p2 { display: none;}
-.Design p3, .Coding p3, .Business p3, .Hosting p3, .Pics p3, .Werbung p3, .Merchendise p3, .Logo p3 { display: none; font-size: 0.8em; color: var(--gray);}
-.Design i, .Coding i, .Business i, .Hosting i, .Pics i, .Werbung i, .Merchendise i, .Logo i { float: left; font-size: 3em; color: black; padding-left: 20px;padding-right: 20px; }
-.Design article, .Coding article, .Business article, .Hosting article, .Pics article, .Werbung article, .Merchendise article, .Logo article { width: 70%; float: right;}
-.Design p1, .Coding p1, .Business p1, .Hosting p1, .Pics p1, .Werbung p1, .Merchendise p1, .Logo p1 {color: black; font-size: 1.2em; font-weight: 800;}
-.Design p2, .Coding p2, .Business p2, .Hosting p2, .Pics p2, .Werbung p2, .Merchendise p2, .Logo p2 {color: black; font-size: 0.8em; display: block;}
-.Design p3, .Coding p3, .Business p3, .Hosting p3, .Pics p3, .Werbung p3, .Merchendise p3, .Logo p3 {display: none; font-size: 0.8em; color: var(--gray);}
+.Design, .Coding, .Business, .Hosting, .Pics, .Werbung, .Merchandise, .Logo { background-color: white; height: 110px; width: 90%; border-radius: 10px; display: flex; align-items: center; margin-left: 5%; margin-bottom: 20px; box-shadow: 0px 10px 10px rgb(222, 222, 222); transition-duration: 0.2s;}
+.Design:hover, .Coding:hover, .Business:hover, .Hosting:hover, .Pics:hover, .Werbung:hover, .Merchandise:hover, .Logo:hover { height: 160px; transition-duration: 0.2s;}
+.Design:hover p3, .Coding:hover p3, .Business:hover p3, .Hosting:hover p3, .Pics:hover p3, .Werbung:hover p3, .Merchandise:hover p3, .Logo:hover p3 { display: block;}
+.Design:hover p2, .Coding:hover p2, .Business:hover p2, .Hosting:hover p2, .Pics:hover p2, .Werbung:hover p2, .Merchandise:hover p2, .Logo:hover p2 { display: none;}
+.Design p3, .Coding p3, .Business p3, .Hosting p3, .Pics p3, .Werbung p3, .Merchandise p3, .Logo p3 { display: none; font-size: 0.8em; color: var(--gray);}
+.Design i, .Coding i, .Business i, .Hosting i, .Pics i, .Werbung i, .Merchandise i, .Logo i { float: left; font-size: 3em; color: black; padding-left: 20px;padding-right: 20px; }
+.Design article, .Coding article, .Business article, .Hosting article, .Pics article, .Werbung article, .Merchandise article, .Logo article { width: 70%; float: right;}
+.Design p1, .Coding p1, .Business p1, .Hosting p1, .Pics p1, .Werbung p1, .Merchandise p1, .Logo p1 {color: black; font-size: 1.2em; font-weight: 800;}
+.Design p2, .Coding p2, .Business p2, .Hosting p2, .Pics p2, .Werbung p2, .Merchandise p2, .Logo p2 {color: black; font-size: 0.8em; display: block;}
+.Design p3, .Coding p3, .Business p3, .Hosting p3, .Pics p3, .Werbung p3, .Merchandise p3, .Logo p3 {display: none; font-size: 0.8em; color: var(--gray);}
 
 .preise { background: var(--main); padding-bottom: 20px;}
 .preise p{ color: white; font-size: 1.6em; font-weight: 800; padding: 20px;}
