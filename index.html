@@ -44,17 +44,19 @@ window.onscroll = function() {
 
       <div class="mobile-menu" id="mobile-menu">
         <i class="material-icons-round">close</i>
-
+        <div class="a">
         <a id="mobile-menu-start" onClick="document.getElementById('start').scrollIntoView();" href="#start">Start</a>
         <a id="mobile-menu-angebot" onClick="document.getElementById('angebot').scrollIntoView();" href="#angebot">Angebot</a>
         <a id="mobile-menu-preise" onClick="document.getElementById('preise').scrollIntoView();" href="#preise">Preise</a>
         <a id="mobile-menu-kontakt" onClick="document.getElementById('kontakt').scrollIntoView();" href="#kontakt">Kontakt</a>
         <a id="mobile-menu-impressum" onClick="document.getElementById('Impressum').scrollIntoView();" href="#impressum">Impressum</a>
       </div>
+      </div>
 
       <script>
        var hamburger = document.querySelector(".mobile-header i");
        var menuclose = document.querySelector(".mobile-menu i");
+       var menuclosea = document.querySelector(".a");
        var wrapper = document.querySelector("*");
         var menu = document.querySelector(".mobile-menu");
         hamburger.onclick = function () {
@@ -67,7 +69,14 @@ window.onscroll = function() {
            hamburger.classList.toggle ("checked");
            wrapper.classList.toggle ("checked");
         }
+        menuclosea.onclick = function () {
+           menu.classList.toggle ("checked");
+           hamburger.classList.toggle ("checked");
+           wrapper.classList.toggle ("checked");
+        }
       </script>
+
+
       <!--Start-->
       <div class="start">
         <article>
@@ -76,6 +85,8 @@ window.onscroll = function() {
         </article>
           <i class="material-icons-round" onClick="document.getElementById('angebot').scrollIntoView();">keyboard_arrow_down</i>
         </div>
+
+
         <!--Was tu ich(Design, Programmierung, SEO)-->
         <div class="wwd" id="angebot">
           <p>SpiderSites kümmert sich um...</p>
@@ -121,8 +132,64 @@ window.onscroll = function() {
               <p2>SpiderSites designt Ihnen Werbeanzeigen oder Flyer</p2>
             </article>
           </div>
+          <div class="Merchendise">
+            <i class="material-icons-round">loyalty</i>
+            <article>
+              <p1>Merchendise</p1><br>
+              <p2>Lassen Sie sich Shirts, Kappen, Tassen uvm bedrucken</p2>
+            </article>
+          </div>
+          <div class="Logo">
+            <i class="material-icons-round">format_shapes</i>
+            <article>
+              <p1>Logo</p1><br>
+              <p2>Ein gutes Logo bietet einen guten Wiedererkennungswert </p2>
+              <p3>Ich möchte Ihnen ein Logo gestalten, dass sich gut merken lässt und dabei gut aussieht. Denn dieses Symbol präsentiert Ihr Unternhemen und sollte deshalb gut durchdacht sein.</p3>
+            </article>
+          </div>
         </div>
+
+
         <!--Preise-->
+        <div class="preise" id="preise">
+          <p>Preise</p>
+          <div class="preisliste">
+            <table>
+              <tr>
+                <td>Website Erstellen</td>
+                <td>279€</td>
+              </tr>
+              <tr>
+                <td>Google MyBusiness</td>
+                <td>89€</td>
+              </tr>
+              <tr>
+                <td>Website Domain</td>
+                <td>12€</td>
+              </tr>
+              <tr>
+                <td>Website Freischalten(extern)</td>
+                <td>29€</td>
+              </tr>
+              <tr>
+                <td>Logo erstellen</td>
+                <td>129€</td>
+              </tr>
+              <tr>
+                <td>Flyer/Werbeanzeige Design</td>
+                <td>99€</td>
+              </tr>
+              <tr>
+                <td>Hosting(mtl)</td>
+                <td>5€</td>
+              </tr>
+              <tr>
+                <td>Unternehmens- Produktbilder</td>
+                <td>20€</td>
+              </tr>
+            </table>
+          </div>
+        </div>
         <!--Kontakt-->
         <!--Footer-->
         <div class="footer">
