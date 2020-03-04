@@ -54,15 +54,18 @@ window.onscroll = function() {
 
       <script>
        var hamburger = document.querySelector(".mobile-header i");
-       var menuclose = document.querySelector(".mobile-menu");
+       var menuclose = document.querySelector(".mobile-menu i");
+       var wrapper = document.querySelector("*");
         var menu = document.querySelector(".mobile-menu");
         hamburger.onclick = function () {
            hamburger.classList.toggle ("checked");
            menu.classList.toggle ("checked");
+           wrapper.classList.toggle ("checked");
         }
         menuclose.onclick = function () {
            menu.classList.toggle ("checked");
            hamburger.classList.toggle ("checked");
+           wrapper.classList.toggle ("checked");
         }
       </script>
       <!--Start-->
