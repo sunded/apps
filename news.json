@@ -1,4 +1,14 @@
 [{
+		"index": 23,
+		"title": "Lara",
+		"info": "6x Netflix 24€",
+		"date": "06.03.2020"
+	},{
+		"index": 22,
+		"title": "Luca",
+		"info": "3x Netflix 12€",
+		"date": "06.03.2020"
+	},{
 		"index": 21,
 		"title": "Niko",
 		"info": "8x Spotify, 7x Netflix 48€",
