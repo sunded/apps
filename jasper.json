@@ -1,4 +1,148 @@
 [{
+		"index": 29,
+		"year": "2020",
+		"month": "Juni",
+		"lilly255": 255,
+		"niko255": 255,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
+
+		"lara255n": 0,
+		"lara190n": 190,
+		"luca255n": 255,
+		"luca190n": 45,
+		"niko255n": 255,
+		"niko190n": 45,
+
+
+		"lilly190": 45,
+		"niko190": 45,
+		"jakob190": 45,
+		"luca190": 45,
+		"luis190": 45
+
+	},{
+		"index": 28,
+		"year": "2020",
+		"month": "Mai",
+		"lilly255": 255,
+		"niko255": 0,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
+
+		"lara255n": 0,
+		"lara190n": 190,
+		"luca255n": 255,
+		"luca190n": 45,
+		"niko255n": 255,
+		"niko190n": 45,
+
+
+		"lilly190": 45,
+		"niko190": 190,
+		"jakob190": 45,
+		"luca190": 45,
+		"luis190": 45
+
+	},{
+		"index": 27,
+		"year": "2020",
+		"month": "April",
+		"lilly255": 255,
+		"niko255": 255,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
+
+		"lara255n": 0,
+		"lara190n": 190,
+		"luca255n": 255,
+		"luca190n": 45,
+		"niko255n": 255,
+		"niko190n": 45,
+
+
+		"lilly190": 45,
+		"niko190": 45,
+		"jakob190": 45,
+		"luca190": 45,
+		"luis190": 45
+
+	},{
+		"index": 26,
+		"year": "2020",
+		"month": "März",
+		"lilly255": 255,
+		"niko255": 255,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
+
+		"lara255n": 0,
+		"lara190n": 190,
+		"luca255n": 255,
+		"luca190n": 45,
+		"niko255n": 255,
+		"niko190n": 45,
+
+
+		"lilly190": 45,
+		"niko190": 45,
+		"jakob190": 45,
+		"luca190": 45,
+		"luis190": 45
+
+	},{
+		"index": 25,
+		"year": "2020",
+		"month": "Februar",
+		"lilly255": 255,
+		"niko255": 255,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
+
+		"lara255n": 0,
+		"lara190n": 190,
+		"luca255n": 255,
+		"luca190n": 45,
+		"niko255n": 255,
+		"niko190n": 45,
+
+
+		"lilly190": 45,
+		"niko190": 45,
+		"jakob190": 45,
+		"luca190": 45,
+		"luis190": 45
+
+	},{
+		"index": 24,
+		"year": "2020",
+		"month": "Januar",
+		"lilly255": 255,
+		"niko255": 255,
+		"jakob255": 255,
+		"luca255": 255,
+		"luis255": 255,
+
+		"lara255n": 0,
+		"lara190n": 190,
+		"luca255n": 0,
+		"luca190n": 190,
+		"niko255n": 255,
+		"niko190n": 45,
+
+
+		"lilly190": 45,
+		"niko190": 45,
+		"jakob190": 45,
+		"luca190": 45,
+		"luis190": 45
+
+	},{
 		"index": 23,
 		"year": "2019",
 		"month": "Dezember",
@@ -10,8 +154,8 @@
 
 		"lara255n": 0,
 		"lara190n": 190,
-		"luca255n": 255,
-		"luca190n": 45,
+		"luca255n": 0,
+		"luca190n": 190,
 		"niko255n": 255,
 		"niko190n": 45,
 
@@ -35,8 +179,8 @@
 
 		"lara255n": 0,
 		"lara190n": 190,
-		"luca255n": 255,
-		"luca190n": 45,
+		"luca255n": 0,
+		"luca190n": 190,
 		"niko255n": 0,
 		"niko190n": 190,
 
