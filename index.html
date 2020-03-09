@@ -25,13 +25,13 @@ window.onscroll = function() {
     </script>
   <body>
     <!--Cookies-->
-    <!--<div class="cookies">
+    <div class="cookies">
       <p>Cookies</p>
       <article>
         <p1>Diese Seite verwendet Cookies. Mit der Benutzung dieser Seite verstehen Sie sich Einverstanden</p1>
         <button class="cookiebtn" onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Okay</button>
       </article>
-    </div>-->
+    </div>
 
     <div class="wrapper"  id="start">
       <i0 id="scrollup" class="material-icons-round" onClick="document.getElementById('start').scrollIntoView();">keyboard_arrow_down</i0>
@@ -43,40 +43,16 @@ window.onscroll = function() {
       </div>
 
       <div class="mobile-menu" id="mobile-menu">
-        <i class="material-icons-round">close</i>
+        <i id="close-icon" class="material-icons-round">close</i>
         <div class="a">
         <a id="mobile-menu-start" onClick="document.getElementById('start').scrollIntoView();" href="#start">Start</a>
         <a id="mobile-menu-angebot" onClick="document.getElementById('angebot').scrollIntoView();" href="#angebot">Angebot</a>
         <a id="mobile-menu-preise" onClick="document.getElementById('preise').scrollIntoView();" href="#preise">Preise</a>
         <a id="mobile-menu-uber-mich" onClick="document.getElementById('uber-mich').scrollIntoView();" href="#kontakt">Über mich</a>
         <a id="mobile-menu-kontakt" onClick="document.getElementById('kontakt').scrollIntoView();" href="#kontakt">Kontakt</a>
-        <a id="mobile-menu-impressum" onClick="document.getElementById('Impressum').scrollIntoView();" href="#impressum">Impressum</a>
+        <a id="mobile-menu-impressum" class="mobile-menu-impressum" href="#impressum">Impressum</a>
       </div>
-      </div>
-
-      <script>
-       var hamburger = document.querySelector(".mobile-header i");
-       var menuclose = document.querySelector(".mobile-menu i");
-       var menuclosea = document.querySelector(".a");
-       var wrapper = document.querySelector("*");
-        var menu = document.querySelector(".mobile-menu");
-        hamburger.onclick = function () {
-           hamburger.classList.toggle ("checked");
-           menu.classList.toggle ("checked");
-           wrapper.classList.toggle ("checked");
-        }
-        menuclose.onclick = function () {
-           menu.classList.toggle ("checked");
-           hamburger.classList.toggle ("checked");
-           wrapper.classList.toggle ("checked");
-        }
-        menuclosea.onclick = function () {
-           menu.classList.toggle ("checked");
-           hamburger.classList.toggle ("checked");
-           wrapper.classList.toggle ("checked");
-        }
-      </script>
-
+    </div>
 
       <!--Start-->
       <div class="start">
@@ -205,6 +181,13 @@ window.onscroll = function() {
         </div>
         </div>
 
+        <!--Impressum-->
+        <div class="impressum" id="Impressum">
+          <i class="material-icons-round">close</i>
+          <p id="title">Impressum</p>
+          <p id="impressum-inhalt">Sebastian Klenk<br>Schillerstraße 25a<br>95346 Stadtsteinach<br><br>mail@sebastianklenk.com<br>0152 32165321</p>
+        </div>
+
         <!--Footer-->
         <div class="footer">
           <center><div class="impressum-links">
@@ -216,3 +199,34 @@ window.onscroll = function() {
       </div>
   </body>
 </html>
+<script>
+ var hamburger = document.querySelector(".mobile-header i");
+ var menuclose = document.querySelector(".mobile-menu i");
+ var impclose = document.querySelector(".impressum i");
+ var impopen = document.querySelector("mobile-menu-impressum");
+ var impopen = document.querySelector(".impressum-links a");
+ var menuclosea = document.querySelector(".a");
+  var menu = document.querySelector(".mobile-menu");
+   var imp = document.querySelector(".impressum");
+  hamburger.onclick = function () {
+     hamburger.classList.toggle ("checked");
+     menu.classList.toggle ("checked");
+     wrapper.classList.toggle ("checked");
+  }
+  menuclose.onclick = function () {
+     menu.classList.toggle ("checked");
+     hamburger.classList.toggle ("checked");
+     wrapper.classList.toggle ("checked");
+  }
+  menuclosea.onclick = function () {
+     menu.classList.toggle ("checked");
+     hamburger.classList.toggle ("checked");
+     wrapper.classList.toggle ("checked");
+  }
+  impclose.onclick = function () {
+        imp.classList.toggle ("checked");
+  }
+  impopen.onclick = function () {
+        imp.classList.toggle ("checked");
+  }
+</script>
