@@ -31,11 +31,10 @@
 .mobile-menu i{ color: var(--gray); position: fixed; transform: rotate(0deg) scale(0); right: 15px; top: 15px; transition-duration: 0.4s;}
 
   #mobile-menu-start {top: 15%;}#mobile-menu-start:hover {text-decoration: overline;}
-  #mobile-menu-angebot {top: 25%;}#mobile-menu-angebot:hover {text-decoration: overline;}
-  #mobile-menu-preise {top: 35%;}#mobile-menu-preise:hover {text-decoration: overline;}
-  #mobile-menu-uber-mich {top: 45%;}#mobile-menu-uber-mich:hover {text-decoration: overline;}
+  #mobile-menu-uber-mich {top: 25%;}#mobile-menu-angebot:hover {text-decoration: overline;}
+  #mobile-menu-angebot {top: 35%;}#mobile-menu-preise:hover {text-decoration: overline;}
+  #mobile-menu-preise {top: 45%;}#mobile-menu-uber-mich:hover {text-decoration: overline;}
   #mobile-menu-kontakt {top:55%;}#mobile-menu-kontakt:hover {text-decoration: overline;}
-  #mobile-menu-impressum {top:65%;}#mobile-menu-impressum:hover {text-decoration: overline;}
 
 .start { background-color: var(--main); height: 100vh; text-align: center;}
 .start article { position: absolute; top: 40%; width: 100%;}
@@ -43,10 +42,15 @@
 .start h1 { color: var(--mainlight); font-size: 0.8em; font-weight: 400; padding-top: 10px;}
 .start i { color: var(--maindark); top:95%; position: absolute; width: 100%; transform: translate(-50%);}
 
-.wwd { background-color: rgb(235, 235, 235); padding-bottom: 20px;}
-.wwd p { color: black; text-align: left; font-size: 1.6em; padding: 35px 115px 35px 25px; font-weight: 800; }
+.info {width: 80%;margin-bottom: 80px;}
+.info i{font-size: 10em;padding-top: 160px;color: rgb(245, 245, 245);padding-left: 120px;margin-top: -70px;}
+.info p{font-size: 1.4em; font-weight: 800;margin-top: -85px;padding-bottom: 10px;font-weight: 200;}
+.info p1{color: gray;margin-bottom: 80px;font-weight: 200;}
 
-.Design, .Coding, .Business, .Hosting, .Pics, .Werbung, .Merchandise, .Logo { background-color: white; height: 110px; width: 90%; border-radius: 10px; display: flex; align-items: center; margin-left: 5%; margin-bottom: 20px; box-shadow: 0px 10px 10px rgb(222, 222, 222); transition-duration: 0.2s;}
+.wwd { background-color: white; padding-bottom: 20px;}
+.wwd p { color: black; text-align: left; font-size: 2em; padding: 35px 115px 35px 25px; font-weight: 800; }
+
+.Design, .Coding, .Business, .Hosting, .Pics, .Werbung, .Merchandise, .Logo { background-color: white; height: 110px; width: 90%; border-radius: 10px; display: flex; align-items: center; margin-left: 5%; margin-bottom: 20px; box-shadow: 0px 5px 10px rgb(222, 222, 222); transition-duration: 0.2s;}
 .Design:hover, .Coding:hover, .Business:hover, .Hosting:hover, .Pics:hover, .Werbung:hover, .Merchandise:hover, .Logo:hover { height: 160px; transition-duration: 0.2s;}
 .Design:hover p3, .Coding:hover p3, .Business:hover p3, .Hosting:hover p3, .Pics:hover p3, .Werbung:hover p3, .Merchandise:hover p3, .Logo:hover p3 { display: block;}
 .Design:hover p2, .Coding:hover p2, .Business:hover p2, .Hosting:hover p2, .Pics:hover p2, .Werbung:hover p2, .Merchandise:hover p2, .Logo:hover p2 { display: none;}
@@ -58,13 +62,36 @@
 .Design p3, .Coding p3, .Business p3, .Hosting p3, .Pics p3, .Werbung p3, .Merchandise p3, .Logo p3 {display: none; font-size: 0.8em; color: var(--gray);}
 
 .preise { background: var(--main); padding-bottom: 40px;}
-.preise p{ color: white; font-size: 1.6em; font-weight: 800; padding: 20px;}
-.preisliste{ background-color: white; margin-left: 5%; margin-right: 5%; border-radius: 10px;}
-.preisliste td{font-size: 1em;width: 100%;padding:20px 20px 20px 20px;}
-.preisliste td:nth-child(n+2){color: var(--gray);text-align: right;}
+.preise h6{ color: white; font-size: 2em; font-weight: 800; padding: 20px 20px 20px 20px;}
+
+.website-slim{margin-left: 5%; margin-right: 5%; background-color: white;border-radius: 10px;margin-bottom: 30px;height: auto;}
+.website-slim p{font-weight: 600;font-size: 1.4em;padding-top: 20px;padding-bottom: 5px;color: var(--main);}
+.website-slim p1{font-weight: 400;font-size: 1em;padding: 0px 20px 30px 20px;color: gray;display: block;}
+.website-slim preis{font-weight: 200;color: var(--main);font-size: 2em;width: 100%;}
+.website-slim table{padding-bottom: 20px;padding-top: 30px;color: var(--gray)}
+.website-slim td:nth-child(2){padding-left: 15px;}
+
+.website-plus{margin-left: 5%; margin-right: 5%; background-color: white;border-radius: 10px;margin-bottom: 30px;height: auto;}
+.website-plus p{font-weight: 600;font-size: 1.4em;padding-top: 20px;padding-bottom: 5px;color: var(--main);}
+.website-plus p1{font-weight: 400;font-size: 1em;padding: 0px 20px 30px 20px;color: gray;display: block;}
+.website-plus preis{font-weight: 200;color: var(--main);font-size: 2em;width: 100%;}
+.website-plus table{padding-bottom: 20px;padding-top: 30px;color: var(--gray)}
+.website-plus td:nth-child(2){padding-left: 15px;}
+
+.website-creative{margin-left: 5%; margin-right: 5%; background-color: white;border-radius: 10px;margin-bottom: 30px;height: auto;}
+.website-creative p{font-weight: 600;font-size: 1.4em;padding-top: 20px;padding-bottom: 5px;color: var(--main);}
+.website-creative p1{font-weight: 400;font-size: 1em;padding: 0px 20px 30px 20px;color: gray;display: block;}
+.website-creative preis{font-weight: 200;color: var(--main);font-size: 2em;width: 100%;}
+.website-creative table{padding-bottom: 20px;padding-top: 30px;color: var(--gray)}
+.website-creative td:nth-child(2){padding-left: 15px;}
+
+.preisliste{ background-color: white; margin-left: 5%; margin-right: 5%; border-radius: 10px;padding-bottom: 10px;}
+.preisliste td{font-size: 1em;width: 100%;padding:20px 20px 10px 20px;color: var(--gray);}
+.preisliste td:nth-child(n+2){color: var(--gray);text-align: right;font-weight: 200;}
+.preisliste h6{font-weight: 600;font-size: 1.4em;padding-top: 20px;padding-bottom: 5px;color: var(--main);text-align: center;}
 
 .kontakt {padding-bottom: 50px;}
-.kontakt p:not(#p1) {color: black; font-weight: 800; font-size: 1.6em;padding: 45px 0px 0px 25px;}
+.kontakt p:not(#p1) {color: black; font-weight: 800; font-size: 2em;padding: 45px 0px 0px 25px;}
 .mail { box-shadow: 0px 5px 25px 10px rgb(235, 235, 235); align-items: left;border: none;border-radius: 10px;width: 90%;height: 200px;padding-top: 20px;margin-top: 20px;margin-left: 5%;border-color: var(--gray);}
 #p1 {color: var(--gray);width: 90%;display: block;font-size: 1em;font-weight: 400; padding: 0px 0px 0px 25px;}
 .mail i {color: var(--gray);font-size: 5em; padding-left: 20px;padding-bottom: 60px;}
@@ -76,7 +103,7 @@
 .impressum i{color: black;padding: 20px;right:0px;position: absolute;}
 .impressum.checked {height: 100vh;transition-duration: 0.4s;}
 
-
+/**Footer**/
 .footer a{ border-top: solid; border-color: rgb(235, 235, 235); border-width: 2px; padding-bottom: 20px; padding-top: 20px; text-decoration: none; font-size: 1em; color: var(--gray); float: left; width: 50%; background-color: white;}
 #a1{ padding-bottom: 20px; padding-top: 20px; text-decoration: none; font-size: 1em; color: var(--gray); float: left; width: 50%; background-color: white;}
 #footer-copyright{ text-decoration: none; font-size: 0.8em; color: white; background-color: var(--main); padding: 7px; text-align: center; margin-top: 40px;}

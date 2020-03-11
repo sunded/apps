@@ -28,7 +28,7 @@ window.onscroll = function() {
     <div class="cookies">
       <p>Cookies</p>
       <article>
-        <p1>Diese Seite verwendet Cookies. Mit der Benutzung dieser Seite verstehen Sie sich Einverstanden</p1>
+        <p1>Diese Seite verwendet Cookies. Mit der Benutzung dieser Seite verstehen Sie sich damit Einverstanden</p1>
         <button class="cookiebtn" onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Okay</button>
       </article>
     </div>
@@ -46,11 +46,10 @@ window.onscroll = function() {
         <i id="close-icon" class="material-icons-round">close</i>
         <div class="a">
         <a id="mobile-menu-start" onClick="document.getElementById('start').scrollIntoView();" href="#start">Start</a>
+        <a id="mobile-menu-uber-mich" onClick="document.getElementById('uber-mich').scrollIntoView();" href="#about-me">Warum ich?</a>
         <a id="mobile-menu-angebot" onClick="document.getElementById('angebot').scrollIntoView();" href="#angebot">Angebot</a>
         <a id="mobile-menu-preise" onClick="document.getElementById('preise').scrollIntoView();" href="#preise">Preise</a>
-        <a id="mobile-menu-uber-mich" onClick="document.getElementById('uber-mich').scrollIntoView();" href="#kontakt">Über mich</a>
         <a id="mobile-menu-kontakt" onClick="document.getElementById('kontakt').scrollIntoView();" href="#kontakt">Kontakt</a>
-        <a id="mobile-menu-impressum" class="mobile-menu-impressum" href="#impressum">Impressum</a>
       </div>
     </div>
 
@@ -58,12 +57,33 @@ window.onscroll = function() {
       <div class="start">
         <article>
           <p1>MEHR KUNDEN<br>WENIGER KOSTEN</p1>
-          <h1>Die perfekte Website für Ihr Unternehmen<br>Mit der richtigen Website erreichen Sie noch mehr Kunden <br>Bei SpiderSites sogar für wenig Geld</h1>
+          <h1>Erreichen Sie noch mehr Kunden! Mit den individuell entwickelten Websites für Ihr Unternehmen. Sich im Internet 24/7 zu repräsentieren kann auch einfach & günstig sein. Ich kümmere mich um alles, mit den RundumPaketen schon ab 279€</h1>
         </article>
           <i class="material-icons-round" onClick="document.getElementById('angebot').scrollIntoView();">keyboard_arrow_down</i>
         </div>
 
+        <!--Info-->
+        <center>
+        <div class="info" id="about-me">
+          <article class="love">
+            <i class="material-icons-round">favorite</i>
+            <p>Mit Liebe</p>
+            <p1>Ich begeisterer mich seit einigen Jahren für das Programmieren von verschiedensten anwendungen. Und das erstellen von Websiten macht mir besonders Spaß. Ich erstelle meine Projekte aus Leidenschaft und mit Liebe.</p1>
+          </article>
 
+          <article class="responsive">
+            <i class="material-icons-round">phonelink</i>
+            <p>Für alle Geräte</p>
+            <p1>Mehr als 50% der Websiteaufrufe geschehen über Smartphones. Leider haben viele Websites noch keine angepasste Website. Ich achte darauf, auf allen Geräten die beste Nutzererfahrung zu erzielen. Dazu zählt die Ladezeit ebenso wie die Lesbarkeit und Anordnung der Inhalte.</p1>
+          </article>
+
+          <article class="price">
+            <i class="material-icons-round">euro</i>
+            <p>Unschlagbar Günstig</p>
+            <p1>Ich habe mein Hobby zum Hobby gemacht. Ich habe nicht das Ziel reich zu werden oder muss ein ganzen Unternehmen finanzieren. Aus diesem Grund biete ich Preise, bei dem keiner mithalten kann. Leider beziehe ich mir hier nur auf die Kosten, meine Ergebnisse sind alles andere als billig.</p1>
+          </article>
+        </center>
+        </div>
         <!--Was tu ich(Design, Programmierung, SEO)-->
         <div class="wwd" id="angebot">
           <p>Angebot</p>
@@ -71,49 +91,56 @@ window.onscroll = function() {
             <i class="material-icons-round">create</i>
             <article>
               <p1>Design</p1><br>
-              <p3>SpiderSites entwickelt ein Design das zu Ihnen passt</p3>
+              <p2>Mit einem durchdachten Design zu einer beeindruckenden Website</p2>
+              <p3>Ich entwickle Ihnen ein Design, mit dem Ihre Website individuell und auf Sie abgestimmt ist. Mit einer gut gestalteten Website finden sich Besucher schnell und angenehm zurecht.</p3>
             </article>
           </div>
           <div class="Coding">
             <i class="material-icons-round">code</i>
             <article>
               <p1>Programmierung</p1><br>
-              <p3>SpiderSites programmiert Ihre Website ganz nach Ihren Wünschen</p3>
+              <p2>Sorgfältig und Nutzerorientiert programmiert</p2>
+              <p3>Ich verwende keinen Baukasten, der unnötigen Daten erheben oder Ladezeiten verlängert. Ihre Website wird von mir persönlich Programmiert. So kann ich garantiert 100% individuell gestalten und Ladezeiten vermeiden und die Besuchererfahrung zu optimieren.</p3>
             </article>
           </div>
           <div class="Business">
             <i class="material-icons-round">storefront</i>
             <article>
               <p1>Google MyBusiness</p1><br>
-              <p3>Mit einem tollen myBusiness Eintragen werden Sie schneller von Kunden gefunden</p3>
+              <p2>Mit einem guten Google myBusiness Eintragen werden Sie schneller von Kunden gefunden</p2>
+              <p3>Zeigen Sie Kunden was sie zu bieten haben ohne auch nur die Website öffnen zu müssen. Kunden können Sie mit nur einem Klick anrufen, sich die Route zu Ihnen berechnen lassen oder auf Ihre Website gelangen. Die perfekte Ergänzung zu Ihrer Website!</p3>
             </article>
           </div>
           <div class="Hosting">
             <i class="material-icons-round">storage</i>
             <article>
               <p1>Hosting</p1><br>
-              <p3>Bei SpiderSites können Sie auch Ihre Website hosten lassen</p3>
+              <p2>Lassen Sie Ihre Website einfach und günstig von mir Hosten</p2>
+              <p3>Auch für wenig Geld können Sie Ihre Website Online stellen.</p3>
             </article>
           </div>
           <div class="Pics">
             <i class="material-icons-round">camera_alt</i>
             <article>
               <p1>Produkt- Unternehmensbilder</p1><br>
-              <p3>SpiderSites macht Bilder für Ihr Internetpräsenz</p3>
+              <p2>Zeigen Sie Ihren Kunden wer Sie sind und was Sie zu bieten haben</p2>
+              <p3>Ich kümmere mich um einladende Bilder von Ihrem Unternehmen oder Ihren Produkten.</p3>
             </article>
           </div>
           <div class="Werbung">
             <i class="material-icons-round">public</i>
             <article>
               <p1>Werbung</p1><br>
-              <p3>SpiderSites designt Ihnen Werbeanzeigen oder Flyer</p3>
+              <p2>Lassen Sie sich einladende Werbeanzeigen, Visitenkarten,  Flyer oder Plakate designen</p2>
+              <p3>Sowohl für Ihre Online- als auch für Ihre Offlinewerbung erstelle ich einladende Designs. </p3>
             </article>
           </div>
           <div class="Merchandise">
             <i class="material-icons-round">loyalty</i>
             <article>
               <p1>Merchandise</p1><br>
-              <p3>Lassen Sie sich Shirts, Kappen, Tassen uvm bedrucken</p3>
+              <p2>Lassen Sie sich Shirts, Kappen, Tassen uvm bedrucken</p2>
+              <p3>Ich kümmere mich um die gestaltung und bedruckung der Artikel. Tshirts für Mitarbeiter, Tassen oder Tragetaschen mit Ihrem Design sind nur ein paar Beispiele.</p3>
             </article>
           </div>
           <div class="Logo">
@@ -121,7 +148,7 @@ window.onscroll = function() {
             <article>
               <p1>Logo</p1><br>
               <p2>Ein gutes Logo bietet einen guten Wiedererkennungswert </p2>
-              <p3>Ich möchte Ihnen ein Logo gestalten, dass sich gut merken lässt und dabei gut aussieht. Denn dieses Symbol präsentiert Ihr Unternhemen und sollte deshalb gut durchdacht sein.</p2>
+              <p3>Ich möchte Ihnen ein Logo gestalten, dass sich Kunden gut merken können und dabei gut aussieht. Denn dieses Symbol präsentiert Ihr Unternhemen und sollte gut durchdacht sein.</p2>
             </article>
           </div>
         </div>
@@ -129,24 +156,131 @@ window.onscroll = function() {
 
         <!--Preise-->
         <div class="preise" id="preise">
-          <p>Preise</p>
-          <div class="preisliste">
+          <h6>Preise</h6>
+          <div class="website-slim">
+            <center><p>Website Slim</p>
+            <p1>1 Landing Page, perfekt um Ihr Unternehmen vorzustellen</p1>
+            <preis>279€</preis>
             <table>
               <tr>
-                <td>Website Erstellen</td>
-                <td>279€</td>
+                <td><i class="material-icons-round">check</i></td>
+                <td>100% individuell</td>
               </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Design</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Programmierung</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Einrichtung</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>inkl. Domain</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Responsive</td>
+              </tr>
+            </table></center>
+          </div>
+
+          <div class="website-plus">
+            <center><p>Website Plus</p>
+            <p1>Zeigen Sie wer Sie sind und was Ihr Unternehmen zu bieten hat.</p1>
+            <preis>879€</preis>
+            <table>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>100% individuell</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Design</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Programmierung</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Einrichtung</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Inkl. Domain</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Responsive</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Inkl. Unterseiten</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Inkl. Google MyBusiness</td>
+              </tr>
+            </table></center>
+          </div>
+
+          <div class="website-creative">
+            <center>
+              <p>Website Creative</p>
+            <p1>Machen Sie mit einer einzigartigen und unverwechselbaren Website der besonderen Art auf sich Aufmerksam.</p1>
+            <preis>3799€</preis>
+            <table>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>100% individuell</td>
+              </tr>
+                <tr>
+                  <td><i class="material-icons-round">check</i></td>
+                  <td>100% unverwechselbar</td>
+                </tr>
+                <tr>
+                  <td><i class="material-icons-round">check</i></td>
+                  <td>Design</td>
+                </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Programmierung</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Einrichtung</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Inkl. Domain</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Responsive</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Inkl. Unterseiten</td>
+              </tr>
+              <tr>
+                <td><i class="material-icons-round">check</i></td>
+                <td>Inkl. Google MyBusiness</td>
+              </tr>
+            </table>
+          </center>
+          </div>
+
+          <div class="preisliste">
+            <table>
+              <h6>Extras</h6>
               <tr>
                 <td>Google MyBusiness</td>
                 <td>89€</td>
-              </tr>
-              <tr>
-                <td>Website Domain</td>
-                <td>12€</td>
-              </tr>
-              <tr>
-                <td>Website Freischalten(extern)</td>
-                <td>29€</td>
               </tr>
               <tr>
                 <td>Logo erstellen</td>
@@ -157,19 +291,22 @@ window.onscroll = function() {
                 <td>99€</td>
               </tr>
               <tr>
-                <td>Hosting(mtl)</td>
-                <td>5€</td>
+                <td>Unternehmens- Produktbilder</td>
+                <td>39€</td>
               </tr>
               <tr>
-                <td>Unternehmens- Produktbilder</td>
-                <td>20€</td>
+                <td>Merchandise</td>
+                <td>n.V.</td>
+              </tr>
+              <tr>
+                <td>Hosting (monatl.)</td>
+                <td>5€</td>
               </tr>
             </table>
           </div>
         </div>
         <!--Über mich-->
         <div class="uber-mich" id="uber-mich">
-
         </div>
         <!--Kontakt-->
         <div class="kontakt" id="kontakt" onclick="window.location.href='mailto:mail@sebastianklenk.com'">
@@ -211,17 +348,14 @@ window.onscroll = function() {
   hamburger.onclick = function () {
      hamburger.classList.toggle ("checked");
      menu.classList.toggle ("checked");
-     wrapper.classList.toggle ("checked");
   }
   menuclose.onclick = function () {
      menu.classList.toggle ("checked");
      hamburger.classList.toggle ("checked");
-     wrapper.classList.toggle ("checked");
   }
   menuclosea.onclick = function () {
      menu.classList.toggle ("checked");
      hamburger.classList.toggle ("checked");
-     wrapper.classList.toggle ("checked");
   }
   impclose.onclick = function () {
         imp.classList.toggle ("checked");
