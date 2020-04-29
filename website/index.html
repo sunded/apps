@@ -32,9 +32,11 @@
   <div class="backtopgreen">
   </div>
   <div class="back">
+
   <center>
     <h1>Pizzeria SAN</h1>
     <p id="inh">Inh. Daniela Böhner</p>
+
 
   <div id="tel">
       <span class="material-icons-round">local_phone</span>
@@ -43,14 +45,16 @@
   <br />
   <div id="adress">
     <span class="material-icons-round">room</span>
-    <p>Hauptstraße 15, <br /> 95346 Stadtsteinach</p>
+    <p>Hauptstraße 15,</p>
+    <br>
+    <p>95346 Stadtsteinach</p>
   </div>
+
 
   <p id="info">Auch zum Liefern oder selbst abholen</p>
   <p id="biergarten">Bei schönem Wetter Biergartenbetrieb</p>
-
-
   </center>
+
   </div>
   </div>
 
@@ -234,23 +238,31 @@
     margin-top: -10px;
   }
   #tel {
+    width: 300px;
+    display: inline-flex;
     padding-top: 50px;
     font-weight: bold;
     color: var(--gray);
+
   }
   #tel span {
-    padding-right: 15px;
+    width: 100px;
     font-size: 2em;
     opacity: 50%;
   }
 
   #adress {
+    width: 300px;
     padding-top: 10px;
     font-weight: bold;
     color: var(--gray);
   }
+  #adress p {
+    float: left;
+  }
   #adress span {
-    padding-right: 15px;
+    float: left;
+    width: 100px;
     font-size: 2em;
     opacity: 50%;
   }
@@ -267,5 +279,6 @@
     color: var(--green);
     font-size: 0.8em;
   }
+
 
 </style>
