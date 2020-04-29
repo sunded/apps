@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizzeria SAN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style_san.css">-->
+    <link rel="shortcut icon" href="favicon_san.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  </head>
+  <body>
+
+  </body>
+
+    <div class="wrapper">
+
+
+    <div class="mobile_nav">
+    <img src="../san_logo.png" alt="Logo Pizzeria SAN">
+    <span id="menu_icon" class="material-icons-round">menu</span>
+    </div>
+    <div class="mobile_menu" id="mobile_menu">
+    <p>Start</p>
+    <p>Öffnungszeiten</p>
+    <p>Speisekarte</p>
+    <p>Kontakt</p>
+    </div>
+
+<div class="start">
+  <img class="pic1" src="../images/pic1.jpg" alt="">
+  <img class="window" src="../images/pic1.jpg" alt="">
+  <div class="backtopgreen">
+  </div>
+  <div class="backtop">
+  </div>
+  <div class="back">
+  <center>
+    <h1>Pizzeria SAN</h1>
+    <p id="inh">Inh. Daniela Böhner</p>
+
+  <div id="tel">
+      <span class="material-icons-round">local_phone</span>
+      <p>09225 / 20 44 67</p>
+  </div>
+  <br />
+  <div id="adress">
+    <span class="material-icons-round">room</span>
+    <p>Hauptstraße 15, <br /> 95346 Stadtsteinach</p>
+  </div>
+
+  <p id="info">Auch zum Liefern oder selbst abholen</p>
+  <p id="biergarten">Bei schönem Wetter Biergartenbetrieb</p>
+
+
+  </center>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</html>
+
+
+<script>
+ var mobile_icon = document.getElementById("menu_icon");
+ mobile_icon.onclick = function () {
+ menu_icon.classList.toggle ("checked");
+ mobile_menu.classList.toggle ("checked");
+ }
+</script>
+
+
+<style media="screen">
+  * {
+    max-width: 800px;
+    margin: 0px;
+    font-family: Gill Sans MT;
+  }
+  :root {
+    --green: #6ca442;
+    --creme: #F1F0EF;
+    --gray: #535353;
+
+  }
+
+  .wrapper {
+    width: 100%;
+    height: 1300px;
+  }
+
+
+  .mobile_nav {
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+    color: var(--green);
+    height: 50px;
+  }
+  .mobile_nav::after {
+    position: absolute;
+    margin-top: 50px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--green);
+  }
+
+  .mobile_nav img {
+    float: left;
+    margin-left: 15px;
+    width: 80px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  #menu_icon {
+    font-size: 2em;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: white;
+    transition-duration: .5s;
+  }
+
+  #menu_icon.checked {
+    transform: rotate(180deg);
+    color: var(--green);
+  }
+  #mobile_menu {
+    visibility: hidden;
+    position: sticky;
+    top: 50px;
+    transition-duration: 1s;
+    height: 0px;
+    z-index: 99;
+  }
+  #mobile_menu p {
+    transform: translateY(-190px);
+      visibility: hidden;
+      text-align: center;
+      font-size: 1.5em;
+      width: 100%;
+      color: var(--gray);
+      background-color: var(--creme);
+      transition-duration: 1s;
+    }
+
+  #mobile_menu.checked p {
+  transform: translateY(0px);
+    visibility: visible;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: var(--gray);
+    background-color: var(--creme);
+    transition-duration: 1s;
+  }
+  #mobile_menu.checked p::after {
+    position: absolute;
+    margin-top: 42px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--gray);
+    opacity: 20%;
+  }
+
+  .pic1 {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    opacity: 100%;
+    margin-top: -10%;
+  }
+
+  .window {
+    width: 100%;
+    height: auto;
+    margin-top: -20%;
+    opacity: 0%;
+  }
+
+  .backtop {
+    z-index: -1;
+    transform: skewY(-10deg);
+    height: 200px;
+    background-color: white;
+  }
+  .backtopgreen{
+    content: "";
+    transform: skewY(-10deg);
+    height: 3px;
+    background-color: var(--green);
+  }
+
+  .back {
+    background-color: white;
+    height: 200vh;
+    margin-top: -120px;
+    font-size: 1.2em;
+  }
+
+  .back h1 {
+    font-size: 1.6em;
+  }
+
+  #inh {
+    font-weight: bold;
+    color: var(--green);
+    padding-left: 10px;
+    margin-top: -10px;
+  }
+  #tel {
+    padding-top: 50px;
+    font-weight: bold;
+    color: var(--gray);
+  }
+  #tel span {
+    padding-right: 15px;
+    font-size: 2em;
+    opacity: 50%;
+  }
+
+  #adress {
+    padding-top: 10px;
+    font-weight: bold;
+    color: var(--gray);
+  }
+  #adress span {
+    padding-right: 15px;
+    font-size: 2em;
+    opacity: 50%;
+  }
+
+  #info {
+    padding-top: 60px;
+    color: var(--gray);
+  }
+
+  #biergarten {
+    padding-top: 10px;
+    color: var(--green);
+  }
+
+</style>
