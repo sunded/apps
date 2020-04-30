@@ -37,18 +37,22 @@
     <h1>Pizzeria SAN</h1>
     <p id="inh">Inh. Daniela Böhner</p>
 
-
+<a href="tel:123-456-7890">
   <div id="tel">
       <span class="material-icons-round">local_phone</span>
       <p>09225 / 20 44 67</p>
   </div>
+  </a>
+
   <br />
+  <a href="https://goo.gl/maps/oheQrD9WkZufMo24A">
   <div id="adress">
     <span class="material-icons-round">room</span>
     <p>Hauptstraße 15,</p>
     <br>
     <p>95346 Stadtsteinach</p>
   </div>
+  </a>
 
 
   <p id="info">Auch zum Liefern oder selbst abholen</p>
@@ -237,23 +241,40 @@
     padding-left: 10px;
     margin-top: -10px;
   }
+
   #tel {
     width: 300px;
     display: inline-flex;
-    padding-top: 50px;
+    padding-top: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
     font-weight: bold;
     color: var(--gray);
-
+      border-radius: 10px;
+      border-color: var(--creme);
+      border-width: 3px;
+      border-style:solid;
   }
+
   #tel span {
     width: 100px;
     font-size: 2em;
     opacity: 50%;
   }
+  #tel p {
+    padding-top: 7px;
+  }
 
   #adress {
+    border-radius: 10px;
+    border-color: var(--creme);
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    padding-bottom: 40px;
     width: 300px;
-    padding-top: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
     font-weight: bold;
     color: var(--gray);
   }
