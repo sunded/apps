@@ -59,6 +59,24 @@
   <p id="biergarten">Bei schönem Wetter Biergartenbetrieb</p>
   </center>
 
+
+
+  <div class="offnungszeiten">
+    <div class="picgreen">
+
+    <div class="green"></div>
+    <img class="pic2" src="../images/pic2.jpg" alt="">
+  </div>
+  <center>
+    <p class="t0">Öffnungszeiten</p>
+    <p class="t1">Montag Dienstag</p>
+    <p class="t2">geschlossen</p>
+    <p class="t1">Mittwoch - Sonntag</p>
+    <p class="t2">ab 17 Uhr</p>
+    <p class="t1">Feiertage</p>
+    <p class="t2">ab 17 Uhr</p>
+  </center>
+  </div>
   </div>
   </div>
 
@@ -99,6 +117,7 @@
     --green: #6ca442;
     --creme: #F1F0EF;
     --gray: #535353;
+    --grayl: rgba(#535353, 0.5);
 
   }
 
@@ -187,8 +206,7 @@
     content: "";
     width: 100%;
     height: 1px;
-    background-color: var(--gray);
-    opacity: 20%;
+    background-color: var(--grayl);
   }
 
   .pic1 {
@@ -219,8 +237,8 @@
 
   .back {
     background-color: white;
-    height: 200vh;
     font-size: 1.2em;
+    height: 300vh;
     clip-path: polygon(
     0 55px, /* left top */
     100% 0, /* right top */
@@ -243,13 +261,14 @@
   }
 
   #tel {
+    background-color: var(--green);
     width: 300px;
     display: inline-flex;
     padding-top: 20px;
     margin-top: 40px;
     padding-bottom: 20px;
     font-weight: bold;
-    color: var(--gray);
+    color: white;
       border-radius: 10px;
       border-color: var(--creme);
       border-width: 3px;
@@ -259,10 +278,11 @@
   #tel span {
     width: 100px;
     font-size: 2em;
-    opacity: 50%;
+    color: white;
   }
   #tel p {
     padding-top: 7px;
+    text-decoration: none;
   }
 
   #adress {
@@ -271,6 +291,7 @@
     border-width: 3px;
     border-style:solid;
     border-radius: 10px;
+
     padding-bottom: 40px;
     width: 300px;
     margin-top: 30px;
@@ -299,7 +320,38 @@
     padding-top: 10px;
     color: var(--green);
     font-size: 0.8em;
+    margin-bottom: 100px
   }
+.picgreen {
+  display: flex;
+}
+.offnungszeiten {
+    padding-bottom: 60px;
+    background-color: var(--creme);
+  }
+.green {
+  height: auto;
+  width: 5px;
+  background-color: var(--green);
+}
+.pic2 {
+  width: 100%;
+  height: auto;
+}
 
+.t0 {
+  padding-top: 60px;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+.t1 {
+  padding-top: 40px;
+  color: var(--green);
+  font-weight: 600;
+}
+
+.t2 {
+  color: var(--gray);
+}
 
 </style>
