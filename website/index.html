@@ -104,7 +104,11 @@
 
 
 
-
+  <div class="footer">
+    <a href="/impressum" id="imp">Impressum</a>
+    <a href="/datenschutz" id="dat">Datenschutz</a>
+    <center><p>©️ Pizzeria SAN 2020</p><a id="sk" href="">Website erstellt von Sebastian Klenk</a></center>
+  </div>
 
   </div>
 </html>
@@ -404,6 +408,46 @@ mcb3.onclick = function () {
   padding-right: 10px;
   font-size: 0.8em;
   color: var(--grayl);
+}
+
+
+.footer {
+  position: static;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  padding-bottom: 10px;
+}
+#imp {
+  color: var(--green);
+  float: left;
+  text-align: center;
+  width: 50%;
+  font-weight: 800;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#dat {
+  color: var(--green);
+  float: right;
+  text-align: center;
+  width: 50%;
+  font-weight: 800;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  font-size: 0.6em;
+  color: var(--creme);
+}
+
+#sk {
+  font-size: 0.6em;
+  color: var(--creme);
+  text-decoration: none;
 }
 
 </style>
