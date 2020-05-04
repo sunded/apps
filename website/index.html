@@ -89,6 +89,22 @@
     <a href="#Nachspeisen">Nachspeisen</a>
     </center>
   </div>
+
+
+
+
+  <div class="kontakt" id="kontakt">
+    <img class="pic3" src="../images/pic3.jpg" alt="">
+    <div id="greenkontakt"></div>
+    <div class="konwhite">
+      <center>
+      <p id="kon">Kontakt</p>
+      <p id="text">Bei Fragen oder Reservierungen rufen Sie uns gerne an oder schreiben Sie uns eine E-mail</p>
+      <p id="telad">Tel: 09225 / 20 44 67</p>
+      <p id="telad">Hauptstraße 15,<br />95346 Stadtsteinach</p>
+      </center>
+  </div>
+  </div>
   </div>
   </div>
 
@@ -371,7 +387,7 @@ mcb3.onclick = function () {
   float: left;
   height: 100%;
   background-color: var(--gray);
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .pic2 {
@@ -398,7 +414,7 @@ mcb3.onclick = function () {
 }
 .speisekarte p {
   padding-bottom: 30px;
-  padding-top: 60px;
+  padding-top: 40px;
   font-size: 1.6em;
   font-weight: 800;
 
@@ -410,6 +426,65 @@ mcb3.onclick = function () {
   color: var(--grayl);
 }
 
+
+
+.kontakt img {
+  transform: scale(1.2);
+  max-width: 100%;
+  height: auto;
+  clip-path: polygon(
+  0 100px, /* left top */
+  100% 100px, /* right top */
+  100% 100%, /* right bottom */
+  0 100% /* left bottom */
+);
+}
+
+#greenkontakt {
+  height: 103px;
+  margin-top: -103px;
+  background-color: var(--green);
+  clip-path: polygon(
+  0 35px, /* left top */
+  100% 0px, /* right top */
+  100% 100%, /* right bottom */
+  0 100% /* left bottom */
+);
+
+}
+
+.konwhite {
+  padding-top: 50px;
+  margin-top: -100px;
+  background-color: white;
+  clip-path: polygon(
+  0 35px, /* left top */
+  100% 0px, /* right top */
+  100% 100%, /* right bottom */
+  0 100% /* left bottom */
+);
+}
+#kon {
+  font-size: 1.6em;
+  font-weight: 800;
+}
+#text {
+  color: var(--grayl);
+  width: 80%;
+  padding-top: 30px;
+}
+#telad {
+  color: var(--gray);
+  font-size: 1.2em;
+  font-weight: 800;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer p {
+  font-size: 0.6em;
+  color: var(--creme);
+}
 
 .footer {
   position: static;
@@ -437,11 +512,6 @@ mcb3.onclick = function () {
   text-decoration: none;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.footer p {
-  font-size: 0.6em;
-  color: var(--creme);
 }
 
 #sk {
