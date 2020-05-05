@@ -12,20 +12,32 @@
 
   </body>
 
+  <div class="mobile_nav">
+
+
+<div id="menuwide">
+
+  <img src="../images/san_logo.png" alt="Logo Pizzeria SAN">
+  <span id="menu_icon" class="material-icons-round">menu</span>
+  <a href="#kontakt" id="mcb3">Kontakt</a>
+  <a href="#speisekarte" id="mcb2">Speisekarte</a>
+  <a href="#offnungszeiten" id="mcb1">Öffnungszeiten</a>
+  <a href="#start" id="mcb">Start</a>
+</div>
+  </div>
+  <div class="mobile_menu" id="mobile_menu">
+  <a href="#start" id="mcb"><p>Start</p></a>
+  <a href="#offnungszeiten" id="mcb1"><p>Öffnungszeiten</p></a>
+  <a href="#speisekarte" id="mcb2"><p>Speisekarte</p></a>
+  <a href="#kontakt" id="mcb3"><p>Kontakt</p></a>
+
+  </div>
+
+
     <div class="wrapper">
 
 
-    <div class="mobile_nav">
-    <img src="../images/san_logo.png" alt="Logo Pizzeria SAN">
-    <span id="menu_icon" class="material-icons-round">menu</span>
-    </div>
-    <div class="mobile_menu" id="mobile_menu">
-    <a href="#start" id="mcb"><p>Start</p></a>
-    <a href="#offnungszeiten" id="mcb1"><p>Öffnungszeiten</p></a>
-    <a href="#speisekarte" id="mcb2"><p>Speisekarte</p></a>
-    <a href="#kontakt" id="mcb3"><p>Kontakt</p></a>
 
-    </div>
 
 <div class="start" id="start">
   <img class="pic1" src="../images/pic1.jpg" alt="">
@@ -119,14 +131,14 @@
 
 
 
-
   <div class="footer">
     <a href="/impressum" id="imp">Impressum</a>
     <a href="/datenschutz" id="dat">Datenschutz</a>
     <center><p>©️ Pizzeria SAN 2020</p><a id="sk" href="">Website erstellt von Sebastian Klenk</a></center>
   </div>
 
-  </div>
+      </div>
+
 </html>
 
 
@@ -162,7 +174,7 @@ mcb3.onclick = function () {
 
 <style media="screen">
   * {
-    max-width: 800px;
+    scroll-behavior:smooth;
     margin: 0px;
     font-family: Gill Sans MT;
   }
@@ -174,351 +186,1014 @@ mcb3.onclick = function () {
 
   }
 
-  .wrapper {
-    width: 100%;
-  }
 
+  @media only screen and (max-width: 800px) {
+    .wrapper {
+      width: 100%;
+      max-width: 800px;
+    }
 
-  .mobile_nav {
-    z-index: 100;
-    position: sticky;
-    top: 0px;
-    background-color: black;
-    width: 100%;
-    color: var(--green);
-    height: 50px;
-  }
-  .mobile_nav::after {
-    position: absolute;
-    margin-top: 50px;
-    left: 0;
-    content: "";
-    width: 100%;
-    height: 3px;
-    background-color: var(--green);
-  }
+    .mobile_nav {
+      z-index: 100;
+      position: sticky;
+      top: 0px;
+      background-color: black;
+      width: 100%;
+      color: var(--green);
+      height: 50px;
+    }
+    .mobile_nav::after {
+      position: absolute;
+      margin-top: 50px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 3px;
+      background-color: var(--green);
+    }
 
-  .mobile_nav img {
-    float: left;
-    margin-left: 15px;
-    width: 80px;
-    height: auto;
-    margin-top: 5px;
-  }
+    .mobile_nav img {
+      float: left;
+      margin-left: 15px;
+      width: 80px;
+      height: auto;
+      margin-top: 5px;
+    }
+    .mobile_nav a {
+      display: none;
+    }
 
-  #menu_icon {
-    font-size: 2em;
-    float: right;
-    margin-right: 15px;
-    margin-top: 10px;
-    color: white;
-    transition-duration: 0.5s;
-  }
+    #menu_icon {
+      font-size: 2em;
+      float: right;
+      margin-right: 15px;
+      margin-top: 10px;
+      color: white;
+      transition-duration: 0.5s;
+    }
 
-  #menu_icon.checked {
-    transform: rotate(180deg);
-    color: var(--green);
-  }
-  #mobile_menu {
-    visibility: hidden;
-    position: sticky;
-    top: 50px;
-    transition-duration: 0.5s;
-    height: 0px;
-    z-index: 99;
-  }
-  #mobile_menu p {
-    transform: translateY(-190px);
+    #menu_icon.checked {
+      transform: rotate(180deg);
+      color: var(--green);
+    }
+    #mobile_menu {
       visibility: hidden;
+      position: sticky;
+      top: 50px;
+      transition-duration: 0.5s;
+      height: 0px;
+      z-index: 99;
+    }
+    #mobile_menu p {
+      transform: translateY(-190px);
+        visibility: hidden;
+        text-align: center;
+        font-size: 1.5em;
+        width: 100%;
+        color: var(--gray);
+        background-color: var(--creme);
+        transition-duration: 0.5s;
+      }
+
+    #mobile_menu.checked p {
+    transform: translateY(0px);
+      visibility: visible;
       text-align: center;
       font-size: 1.5em;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-bottom: 15px;
       width: 100%;
       color: var(--gray);
       background-color: var(--creme);
       transition-duration: 0.5s;
     }
+    #mobile_menu.checked p::after {
+      position: absolute;
+      margin-top: 42px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: var(--grayl);
+    }
+    #mobile_menu a{
+      text-decoration: none;
+    }
 
-  #mobile_menu.checked p {
-  transform: translateY(0px);
-    visibility: visible;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    color: var(--gray);
-    background-color: var(--creme);
-    transition-duration: 0.5s;
-  }
-  #mobile_menu.checked p::after {
-    position: absolute;
-    margin-top: 42px;
-    left: 0;
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: var(--grayl);
-  }
-  #mobile_menu a{
-    text-decoration: none;
-  }
+    .pic1 {
+      width: 100%;
+      position: fixed;
+      opacity: 100%;
+      margin-top: -5%;
+    }
 
-  .pic1 {
+  .placeholder {
+    opacity: 0%;
     width: 100%;
-    position: fixed;
-    opacity: 100%;
+    height: auto;
     margin-top: -5%;
   }
 
-.placeholder {
-  opacity: 0%;
-  width: 100%;
-  height: auto;
-  margin-top: -5%;
-}
+    .backtopgreen{
+      margin-top: -40px;
+      height: 58px;
+      background-color: var(--green);
+      margin-bottom: -55px;
+      clip-path: polygon(
+      0 35px, /* left top */
+      100% 0, /* right top */
+      100% 100%, /* right bottom */
+      0 100% /* left bottom */);
+    }
 
-  .backtopgreen{
-    margin-top: -40px;
-    height: 58px;
-    background-color: var(--green);
-    margin-bottom: -55px;
-    clip-path: polygon(
-    0 35px, /* left top */
-    100% 0, /* right top */
-    100% 100%, /* right bottom */
-    0 100% /* left bottom */);
-  }
-
-  .back {
-    background-color: white;
-    font-size: 1.2em;
-    clip-path: polygon(
-    0 35px, /* left top */
-    100% 0, /* right top */
-    100% 100%, /* right bottom */
-    0 100% /* left bottom */
-  );
-  }
-  .back a{
-    text-decoration: none;
-  }
+    .back {
+      background-color: white;
+      font-size: 1.2em;
+      clip-path: polygon(
+      0 35px, /* left top */
+      100% 0, /* right top */
+      100% 100%, /* right bottom */
+      0 100% /* left bottom */
+    );
+    }
+    .back a{
+      text-decoration: none;
+    }
 
 
-  .back h1 {
-    padding-top: 50px;
-    font-size: 1.6em;
-  }
+    .back h1 {
+      padding-top: 50px;
+      font-size: 1.6em;
+    }
 
-  #inh {
-    font-weight: bold;
-    color: var(--green);
-    padding-left: 10px;
-    margin-top: -10px;
-  }
+    #inh {
+      font-weight: bold;
+      color: var(--green);
+      padding-left: 10px;
+      margin-top: -10px;
+    }
 
-  #tel {
-    width: 300px;
-    display: inline-flex;
-    padding-top: 20px;
-    margin-top: 50px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    color: var(--gray);
+    #tel {
+      width: 300px;
+      display: inline-flex;
+      padding-top: 20px;
+      margin-top: 50px;
+      padding-bottom: 20px;
+      font-weight: bold;
+      color: var(--gray);
+        border-radius: 10px;
+        border-color: var(--creme);
+        border-width: 3px;
+        border-style:solid;
+    }
+
+    #tel span {
+      width: 100px;
+      font-size: 2em;
+      color: var(--grayl);
+    }
+    #tel p {
+      padding-top: 7px;
+      text-decoration: none;
+    }
+
+    #adress {
       border-radius: 10px;
       border-color: var(--creme);
       border-width: 3px;
       border-style:solid;
+      border-radius: 10px;
+
+      padding-bottom: 40px;
+      width: 300px;
+      margin-top: 30px;
+      padding-top: 20px;
+      font-weight: bold;
+      color: var(--gray);
+    }
+    #adress p {
+      float: left;
+    }
+    #adress span {
+      float: left;
+      width: 100px;
+      font-size: 2em;
+      color: var(--grayl);
+    }
+
+    #info {
+      padding-top: 60px;
+      color: var(--gray);
+      font-size: 1em;
+    }
+
+    #biergarten {
+      padding-top: 10px;
+      color: var(--green);
+      font-size: 0.8em;
+      margin-bottom: 100px
+    }
+
+
+  .offnungszeiten {
+      padding-bottom: 60px;
+      background-color: var(--creme);
+    }
+  .green {
+    float: left;
+    height: 100%;
+    background-color: var(--green);
+    margin-bottom: 40px;
   }
 
-  #tel span {
-    width: 100px;
-    font-size: 2em;
+  .pic2 {
+    float: right;
+    width: 99%;
+    height: auto;
+  }
+
+  .t0 {
+    font-size: 1.6em;
+    font-weight: 800;
+  }
+  .t1 {
+    padding-top: 40px;
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  .t2 {
     color: var(--grayl);
   }
-  #tel p {
-    padding-top: 7px;
-    text-decoration: none;
+  .speisekarte {
+    padding-bottom: 100vh;
+    width: 80%;
+    padding-left: 10%;
   }
+  .speisekarte p {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 1.6em;
+    font-weight: 800;
 
-  #adress {
-    border-radius: 10px;
-    border-color: var(--creme);
-    border-width: 3px;
-    border-style:solid;
-    border-radius: 10px;
-
-    padding-bottom: 40px;
-    width: 300px;
-    margin-top: 30px;
-    padding-top: 20px;
-    font-weight: bold;
-    color: var(--gray);
   }
-  #adress p {
-    float: left;
-  }
-  #adress span {
-    float: left;
-    width: 100px;
-    font-size: 2em;
+  .speisekarte a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
     color: var(--grayl);
   }
 
-  #info {
-    padding-top: 60px;
+
+
+  .kontakt img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(
+    0 100px, /* left top */
+    100% 100px, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
+  }
+
+  #greenkontakt {
+    height: 103px;
+    margin-top: -103px;
+    background-color: var(--green);
+    clip-path: polygon(
+    0 35px, /* left top */
+    100% 0px, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
+
+  }
+
+  .konwhite {
+    padding-top: 50px;
+    margin-top: -100px;
+    background-color: white;
+    clip-path: polygon(
+    0 35px, /* left top */
+    100% 0px, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
+  }
+  #kon {
+    font-size: 1.6em;
+    font-weight: 800;
+  }
+  #text {
+    color: var(--grayl);
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 0.8em;
+  }
+  #telad {
     color: var(--gray);
     font-size: 1em;
+    padding-bottom: 30px;
+    font-weight: 800;
   }
 
-  #biergarten {
-    padding-top: 10px;
+  .footer p {
+    font-size: 0.6em;
+    color: var(--creme);
+  }
+
+  .footer {
+    position: static;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 50px;
+  }
+  #imp {
     color: var(--green);
+    float: left;
+    text-align: center;
+    width: 50%;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #dat {
+    color: var(--green);
+    float: right;
+    text-align: center;
+    width: 50%;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #sk {
+    font-size: 0.6em;
+    color: var(--creme);
+    text-decoration: none;
+  }
+  }
+
+
+/**Desktop Ansicht**/
+
+
+
+
+  @media only screen and (min-width: 801px) and (max-width: 1200px) {
+.wrapper {
+   max-width: 1200px;
+}
+
+    .mobile_nav {
+      z-index: 100;
+      position: sticky;
+      top: 0px;
+      background-color: black;
+      width: 100%;
+      color: var(--green);
+      height: 50px;
+    }
+    .mobile_nav::after {
+      position: absolute;
+      margin-top: 50px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 3px;
+      background-color: var(--green);
+    }
+
+    .mobile_nav img {
+      float: left;
+      margin-left: 15px;
+      width: 80px;
+      height: auto;
+      margin-top: 5px;
+    }
+    .mobile_nav a {
+      float: right;
+      color: white;
+      padding-top: 13px;
+      padding-right: 45px;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+
+    #menu_icon {
+      visibility: hidden;
+    }
+
+    #mobile_menu {
+      display: none;
+    }
+
+
+    .pic1 {
+      width: 100%;
+      max-width: 1200px;
+      position: fixed;
+      opacity: 100%;
+      margin-top: -20%;
+    }
+
+  .placeholder {
+    opacity: 0%;
+    width: 100%;
+    height: auto;
+    margin-top: -20%;
+  }
+
+    .backtopgreen{
+      margin-top: -20%;
+      height: 58px;
+      background-color: var(--green);
+      margin-bottom: -55px;
+      clip-path: polygon(
+      0 75px, /* left top */
+      100% 0, /* right top */
+      100% 100%, /* right bottom */
+      0 100% /* left bottom */);
+    }
+
+    .back {
+      background-color: white;
+      font-size: 1.2em;
+      clip-path: polygon(
+      0 75px, /* left top */
+      100% 0, /* right top */
+      100% 100%, /* right bottom */
+      0 100% /* left bottom */
+    );
+    }
+    .back a{
+      text-decoration: none;
+    }
+
+
+    .back h1 {
+      padding-top: 50px;
+      font-size: 1.6em;
+    }
+
+    #inh {
+      font-weight: bold;
+      color: var(--green);
+      padding-left: 10px;
+      margin-top: -10px;
+    }
+
+    #tel {
+      width: 300px;
+      display: inline-flex;
+      padding-top: 20px;
+      margin-top: 50px;
+      padding-bottom: 20px;
+      font-weight: bold;
+      color: var(--gray);
+        border-radius: 10px;
+        border-color: var(--creme);
+        border-width: 3px;
+        border-style:solid;
+    }
+
+    #tel span {
+      width: 100px;
+      font-size: 2em;
+      color: var(--grayl);
+    }
+    #tel p {
+      padding-top: 7px;
+      text-decoration: none;
+    }
+
+    #adress {
+      border-radius: 10px;
+      border-color: var(--creme);
+      border-width: 3px;
+      border-style:solid;
+      border-radius: 10px;
+
+      padding-bottom: 40px;
+      width: 300px;
+      margin-top: 30px;
+      padding-top: 20px;
+      font-weight: bold;
+      color: var(--gray);
+    }
+    #adress p {
+      float: left;
+    }
+    #adress span {
+      float: left;
+      width: 100px;
+      font-size: 2em;
+      color: var(--grayl);
+    }
+
+    #info {
+      padding-top: 60px;
+      color: var(--gray);
+      font-size: 1em;
+    }
+
+    #biergarten {
+      padding-top: 10px;
+      color: var(--green);
+      font-size: 0.8em;
+      margin-bottom: 100px
+    }
+
+
+  .offnungszeiten {
+      padding-bottom: 60px;
+      background-color: var(--creme);
+    }
+  .green {
+    float: left;
+    height: 100%;
+    background-color: var(--green);
+    margin-bottom: 40px;
+  }
+
+  .pic2 {
+    float: right;
+    width: 99%;
+    height: auto;
+  }
+
+  .t0 {
+    font-size: 1.6em;
+    font-weight: 800;
+  }
+  .t1 {
+    padding-top: 40px;
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  .t2 {
+    color: var(--grayl);
+  }
+  .speisekarte {
+    padding-bottom: 100vh;
+    width: 80%;
+    padding-left: 10%;
+  }
+  .speisekarte p {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 1.6em;
+    font-weight: 800;
+
+  }
+  .speisekarte a {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 0.8em;
-    margin-bottom: 100px
+    color: var(--grayl);
   }
 
 
-.offnungszeiten {
-    padding-bottom: 60px;
-    background-color: var(--creme);
+
+  .kontakt img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(
+    0 100px, /* left top */
+    100% 100px, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
   }
-.green {
-  float: left;
-  height: 100%;
-  background-color: var(--green);
-  margin-bottom: 40px;
-}
 
-.pic2 {
-  float: right;
-  width: 99%;
-  height: auto;
-}
+  #greenkontakt {
+    height: 103px;
+    margin-top: -103px;
+    background-color: var(--green);
+    clip-path: polygon(
+    0 35px, /* left top */
+    100% 0px, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
 
-.t0 {
-  font-size: 1.6em;
-  font-weight: 800;
-}
-.t1 {
-  padding-top: 40px;
-  color: var(--green);
-  font-weight: 600;
-}
+  }
 
-.t2 {
-  color: var(--grayl);
-}
-.speisekarte {
-  padding-bottom: 100vh;
-}
-.speisekarte p {
-  padding-bottom: 30px;
-  padding-top: 40px;
-  font-size: 1.6em;
-  font-weight: 800;
+  .konwhite {
+    padding-top: 50px;
+    margin-top: -100px;
+    background-color: white;
+    clip-path: polygon(
+    0 35px, /* left top */
+    100% 0px, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
+  }
+  #kon {
+    font-size: 1.6em;
+    font-weight: 800;
+  }
+  #text {
+    color: var(--grayl);
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 0.8em;
+  }
+  #telad {
+    color: var(--gray);
+    font-size: 1em;
+    padding-bottom: 30px;
+    font-weight: 800;
+  }
 
-}
-.speisekarte a {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 0.8em;
-  color: var(--grayl);
-}
+  .footer p {
+    font-size: 0.6em;
+    color: var(--creme);
+  }
+
+  .footer {
+    position:static;
+    bottom: -20px;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 50px;
+  }
+  #imp {
+    color: var(--green);
+    float: left;
+    text-align: center;
+    width: 50%;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #dat {
+    color: var(--green);
+    float: right;
+    text-align: center;
+    width: 50%;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #sk {
+    font-size: 0.6em;
+    color: var(--creme);
+    text-decoration: none;
+  }
+  }
 
 
 
-.kontakt img {
-  transform: scale(1.2);
-  max-width: 100%;
-  height: auto;
-  clip-path: polygon(
-  0 100px, /* left top */
-  100% 100px, /* right top */
-  100% 100%, /* right bottom */
-  0 100% /* left bottom */
-);
-}
 
-#greenkontakt {
-  height: 103px;
-  margin-top: -103px;
-  background-color: var(--green);
-  clip-path: polygon(
-  0 35px, /* left top */
-  100% 0px, /* right top */
-  100% 100%, /* right bottom */
-  0 100% /* left bottom */
-);
 
-}
 
-.konwhite {
-  padding-top: 50px;
-  margin-top: -100px;
-  background-color: white;
-  clip-path: polygon(
-  0 35px, /* left top */
-  100% 0px, /* right top */
-  100% 100%, /* right bottom */
-  0 100% /* left bottom */
-);
-}
-#kon {
-  font-size: 1.6em;
-  font-weight: 800;
-}
-#text {
-  color: var(--grayl);
-  width: 80%;
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-#telad {
-  color: var(--gray);
-  font-size: 1em;
-  padding-bottom: 30px;
-  font-weight: 800;
-}
 
-.footer p {
-  font-size: 0.6em;
-  color: var(--creme);
-}
 
-.footer {
-  position: static;
-  bottom: 0;
-  background-color: black;
-  width: 100%;
-  padding-bottom: 10px;
-  margin-top: 50px;
-}
-#imp {
-  color: var(--green);
-  float: left;
-  text-align: center;
-  width: 50%;
-  font-weight: 800;
-  text-decoration: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-#dat {
-  color: var(--green);
-  float: right;
-  text-align: center;
-  width: 50%;
-  font-weight: 800;
-  text-decoration: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
-#sk {
-  font-size: 0.6em;
-  color: var(--creme);
-  text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 1201px){
+.wrapper {
+  position: relative;
+   max-width: 1200px;
+   margin-left: -600px;
+   left: 50%;
+ }
+
+     .mobile_nav {
+       z-index: 100;
+       position: sticky;
+       top: 0px;
+       background-color: black;
+       width: 100%;
+       color: var(--green);
+       height: 50px;
+     }
+     .mobile_nav::after {
+       position: absolute;
+       margin-top: 22px;
+       left: 0;
+       content: "";
+       width: 100%;
+       height: 3px;
+       background-color: var(--green);
+     }
+
+     .mobile_nav img {
+       float: left;
+       margin-left: 15px;
+       width: 80px;
+       height: auto;
+       margin-top: 5px;
+     }
+     .mobile_nav a {
+       float: right;
+       color: white;
+       padding-top: 13px;
+       padding-right: 45px;
+       font-size: 1.2em;
+       text-decoration: none;
+     }
+     #menuwide {
+     }
+     #menu_icon {
+       visibility: hidden;
+     }
+
+     #mobile_menu {
+       display: none;
+     }
+
+
+     .pic1 {
+       width: 100%;
+       max-width: 1200px;
+       position: fixed;
+       opacity: 100%;
+       margin-top: -300px;
+     }
+
+   .placeholder {
+     opacity: 0%;
+     width: 100%;
+     max-width: 1200px;
+     height: auto;
+     margin-top: -300px;
+   }
+
+     .backtopgreen{
+       margin-top: -20%;
+       height: 58px;
+       background-color: var(--green);
+       margin-bottom: -55px;
+       clip-path: polygon(
+       0 75px, /* left top */
+       100% 0, /* right top */
+       100% 100%, /* right bottom */
+       0 100% /* left bottom */);
+     }
+
+     .back {
+       background-color: white;
+       font-size: 1.2em;
+       clip-path: polygon(
+       0 75px, /* left top */
+       100% 0, /* right top */
+       100% 100%, /* right bottom */
+       0 100% /* left bottom */
+     );
+     }
+     .back a{
+       text-decoration: none;
+     }
+
+
+     .back h1 {
+       padding-top: 50px;
+       font-size: 1.6em;
+     }
+
+     #inh {
+       font-weight: bold;
+       color: var(--green);
+       padding-left: 10px;
+       margin-top: -10px;
+     }
+
+     #tel {
+       width: 300px;
+       display: inline-flex;
+       padding-top: 20px;
+       margin-top: 50px;
+       padding-bottom: 20px;
+       font-weight: bold;
+       color: var(--gray);
+         border-radius: 10px;
+         border-color: var(--creme);
+         border-width: 3px;
+         border-style:solid;
+     }
+
+     #tel span {
+       width: 100px;
+       font-size: 2em;
+       color: var(--grayl);
+     }
+     #tel p {
+       padding-top: 7px;
+       text-decoration: none;
+     }
+
+     #adress {
+       border-radius: 10px;
+       border-color: var(--creme);
+       border-width: 3px;
+       border-style:solid;
+       border-radius: 10px;
+
+       padding-bottom: 40px;
+       width: 300px;
+       margin-top: 30px;
+       padding-top: 20px;
+       font-weight: bold;
+       color: var(--gray);
+     }
+     #adress p {
+       float: left;
+     }
+     #adress span {
+       float: left;
+       width: 100px;
+       font-size: 2em;
+       color: var(--grayl);
+     }
+
+     #info {
+       padding-top: 60px;
+       color: var(--gray);
+       font-size: 1em;
+     }
+
+     #biergarten {
+       padding-top: 10px;
+       color: var(--green);
+       font-size: 0.8em;
+       margin-bottom: 100px
+     }
+
+
+   .offnungszeiten {
+       padding-bottom: 60px;
+       background-color: var(--creme);
+     }
+   .green {
+     float: left;
+     height: 100%;
+     background-color: var(--green);
+     margin-bottom: 40px;
+   }
+
+   .pic2 {
+     float: right;
+     width: 99%;
+     height: auto;
+   }
+
+   .t0 {
+     font-size: 1.6em;
+     font-weight: 800;
+   }
+   .t1 {
+     padding-top: 40px;
+     color: var(--green);
+     font-weight: 600;
+   }
+
+   .t2 {
+     color: var(--grayl);
+   }
+   .speisekarte {
+     padding-bottom: 100vh;
+     width: 80%;
+     padding-left: 10%;
+   }
+   .speisekarte p {
+     padding-bottom: 30px;
+     padding-top: 40px;
+     font-size: 1.6em;
+     font-weight: 800;
+
+   }
+   .speisekarte a {
+     padding-left: 10px;
+     padding-right: 10px;
+     font-size: 0.8em;
+     color: var(--grayl);
+   }
+
+
+
+   .kontakt img {
+     width: 100%;
+     height: auto;
+     clip-path: polygon(
+     0 100px, /* left top */
+     100% 100px, /* right top */
+     100% 100%, /* right bottom */
+     0 100% /* left bottom */
+   );
+   }
+
+   #greenkontakt {
+     height: 103px;
+     margin-top: -103px;
+     background-color: var(--green);
+     clip-path: polygon(
+     0 35px, /* left top */
+     100% 0px, /* right top */
+     100% 100%, /* right bottom */
+     0 100% /* left bottom */
+   );
+
+   }
+
+   .konwhite {
+     padding-top: 50px;
+     margin-top: -100px;
+     background-color: white;
+     clip-path: polygon(
+     0 35px, /* left top */
+     100% 0px, /* right top */
+     100% 100%, /* right bottom */
+     0 100% /* left bottom */
+   );
+   }
+   #kon {
+     font-size: 1.6em;
+     font-weight: 800;
+   }
+   #text {
+     color: var(--grayl);
+     width: 80%;
+     padding-top: 30px;
+     padding-bottom: 50px;
+     font-size: 0.8em;
+   }
+   #telad {
+     color: var(--gray);
+     font-size: 1em;
+     padding-bottom: 30px;
+     font-weight: 800;
+   }
+
+   .footer p {
+     font-size: 0.6em;
+     color: var(--creme);
+   }
+
+   .footer {
+     position:static;
+     bottom: -20px;
+     background-color: black;
+     width: 100%;
+     padding-bottom: 10px;
+     margin-top: 50px;
+   }
+   #imp {
+     color: var(--green);
+     float: left;
+     text-align: center;
+     width: 50%;
+     font-weight: 800;
+     text-decoration: none;
+     padding-top: 20px;
+     padding-bottom: 20px;
+   }
+   #dat {
+     color: var(--green);
+     float: right;
+     text-align: center;
+     width: 50%;
+     font-weight: 800;
+     text-decoration: none;
+     padding-top: 20px;
+     padding-bottom: 20px;
+   }
+
+   #sk {
+     font-size: 0.6em;
+     color: var(--creme);
+     text-decoration: none;
+   }
 }
 
 </style>
