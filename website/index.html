@@ -50,6 +50,14 @@
     <h1>Pizzeria SAN</h1>
     <p id="inh">Inh. Daniela Böhner</p>
 
+
+    <div id="tel1">
+        <span class="material-icons-round">local_phone</span>
+        <p>09225 / 20 44 67</p>
+    </div>
+
+    <div class="teltab">
+
 <a href="tel:123-456-7890">
   <div id="tel">
       <span class="material-icons-round">local_phone</span>
@@ -57,7 +65,6 @@
   </div>
   </a>
 
-  <br />
   <a href="https://goo.gl/maps/oheQrD9WkZufMo24A">
   <div id="adress">
     <span class="material-icons-round">room</span>
@@ -66,9 +73,20 @@
     <p>95346 Stadtsteinach</p>
   </div>
   </a>
+</div>
+
+  <br />
+
+  <div id="adress1">
+    <span class="material-icons-round">room</span>
+    <p>Hauptstraße 15,</p>
+    <br>
+    <p>95346 Stadtsteinach</p>
+  </div>
 
 
-  <p id="info">Auch zum Liefern oder selbst abholen</p>
+
+  <p id="info">Jetzt bestellen & liefern lassen oder selbst abholen</p>
   <p id="biergarten">Bei schönem Wetter Biergartenbetrieb</p>
   </center>
 
@@ -80,7 +98,7 @@
   </div>
   <center>
     <p class="t0">Öffnungszeiten</p>
-    <p class="t1">Montag Dienstag</p>
+    <p class="t1">Montag und Dienstag</p>
     <p class="t2">geschlossen</p>
     <p class="t1">Mittwoch - Sonntag</p>
     <p class="t2">ab 17 Uhr</p>
@@ -113,31 +131,24 @@
       <p id="kon">Kontakt</p>
       <p id="text">Bei Fragen oder Reservierungen rufen Sie uns gerne an oder schreiben Sie uns eine E-mail</p>
       <p id="telad">Tel: 09225 / 20 44 67</p>
-      <p id="telad">Hauptstraße 15,<br />95346 Stadtsteinach</p>
+      <p id="telad2">Hauptstraße 15,<br />95346 Stadtsteinach</p>
       </center>
   </div>
   </div>
   </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="footer">
-    <a href="/impressum" id="imp">Impressum</a>
-    <a href="/datenschutz" id="dat">Datenschutz</a>
-    <center><p>©️ Pizzeria SAN 2020</p><a id="sk" href="">Website erstellt von Sebastian Klenk</a></center>
   </div>
 
+
+    <div class="footer">
+      <div class="footerinh">
+
+
+      <a href="/impressum" id="imp">Impressum</a>
+      <a href="/datenschutz" id="dat">Datenschutz</a>
+      <center><p>©️ Pizzeria SAN 2020</p><a id="sk" href="">Website erstellt von Sebastian Klenk</a></center>
       </div>
+    </div>
 
 </html>
 
@@ -270,7 +281,7 @@ mcb3.onclick = function () {
     }
     #mobile_menu.checked p::after {
       position: absolute;
-      margin-top: 42px;
+      margin-top: 41px;
       left: 0;
       content: "";
       width: 100%;
@@ -358,6 +369,13 @@ mcb3.onclick = function () {
       text-decoration: none;
     }
 
+    #tel1 {
+      display: none;
+    }
+    #adress1 {
+      display: none;
+    }
+
     #adress {
       border-radius: 10px;
       border-color: var(--creme);
@@ -397,14 +415,14 @@ mcb3.onclick = function () {
 
 
   .offnungszeiten {
-      padding-bottom: 60px;
+      padding-bottom: 70px;
       background-color: var(--creme);
     }
   .green {
     float: left;
     height: 100%;
     background-color: var(--green);
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
 
   .pic2 {
@@ -415,12 +433,12 @@ mcb3.onclick = function () {
 
   .t0 {
     font-size: 1.6em;
-    font-weight: 800;
+    font-weight: bold;
+    padding-bottom:
   }
   .t1 {
     padding-top: 40px;
     color: var(--green);
-    font-weight: 600;
   }
 
   .t2 {
@@ -430,12 +448,13 @@ mcb3.onclick = function () {
     padding-bottom: 100vh;
     width: 80%;
     padding-left: 10%;
+    font-weight: bolder;
   }
   .speisekarte p {
     padding-bottom: 30px;
     padding-top: 40px;
     font-size: 1.6em;
-    font-weight: 800;
+    font-weight: bold;
 
   }
   .speisekarte a {
@@ -484,20 +503,28 @@ mcb3.onclick = function () {
   }
   #kon {
     font-size: 1.6em;
-    font-weight: 800;
+    font-weight: bolder;
+    padding-top: 10px;
   }
   #text {
     color: var(--grayl);
     width: 80%;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     font-size: 0.8em;
   }
   #telad {
     color: var(--gray);
     font-size: 1em;
+    padding-bottom: 60px;
+    font-weight: bold;
+  }
+
+  #telad2 {
+    color: var(--gray);
+    font-size: 1em;
     padding-bottom: 30px;
-    font-weight: 800;
+    font-weight: bold;
   }
 
   .footer p {
@@ -518,7 +545,7 @@ mcb3.onclick = function () {
     float: left;
     text-align: center;
     width: 50%;
-    font-weight: 800;
+    font-weight: bolder;
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -528,7 +555,7 @@ mcb3.onclick = function () {
     float: right;
     text-align: center;
     width: 50%;
-    font-weight: 800;
+    font-weight: bolder;
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -547,315 +574,386 @@ mcb3.onclick = function () {
 
 
 
-  @media only screen and (min-width: 801px) and (max-width: 1200px) {
-.wrapper {
-   max-width: 1200px;
-}
-
-    .mobile_nav {
-      z-index: 100;
-      position: sticky;
-      top: 0px;
-      background-color: black;
-      width: 100%;
-      color: var(--green);
-      height: 50px;
-    }
-    .mobile_nav::after {
-      position: absolute;
-      margin-top: 50px;
-      left: 0;
-      content: "";
-      width: 100%;
-      height: 3px;
-      background-color: var(--green);
-    }
-
-    .mobile_nav img {
-      float: left;
-      margin-left: 15px;
-      width: 80px;
-      height: auto;
-      margin-top: 5px;
-    }
-    .mobile_nav a {
-      float: right;
-      color: white;
-      padding-top: 13px;
-      padding-right: 45px;
-      font-size: 1.2em;
-      text-decoration: none;
-    }
-
-    #menu_icon {
-      visibility: hidden;
-    }
-
-    #mobile_menu {
-      display: none;
-    }
 
 
-    .pic1 {
-      width: 100%;
-      max-width: 1200px;
-      position: fixed;
-      opacity: 100%;
-      margin-top: -20%;
-    }
 
-  .placeholder {
-    opacity: 0%;
+
+
+
+  @media only screen and (min-width: 801px) and (max-width: 1919px) {
+
+  .wrapper {
     width: 100%;
-    height: auto;
-    margin-top: -20%;
+    position: relative;
+     max-width: 1920px;
+     background-color: red;
+   }
+
+       .mobile_nav {
+         z-index: 100;
+         position: sticky;
+         top: 0px;
+         background-color: black;
+         width: 100%;
+         color: var(--green);
+         height: 50px;
+       }
+       .mobile_nav::after {
+         position: absolute;
+         margin-top: 22px;
+         left: 0;
+         content: "";
+         width: 100%;
+         height: 3px;
+         background-color: var(--green);
+       }
+
+       .mobile_nav img {
+         float: left;
+         margin-left:  100px;
+         width: 80px;
+         height: auto;
+         margin-top: 5px;
+       }
+       .mobile_nav a {
+         float: right;
+         color: white;
+         padding-top: 13px;
+         padding-right: 5%;
+         font-size: 1.2em;
+         text-decoration: none;
+         transition-duration: 0.3s;
+       }
+
+       .mobile_nav a:hover {
+         transform:translateY(5px);
+         transition-duration: 0.3s;
+         text-decoration: overline;
+         text-decoration-color: var(--green);
+       }
+       #menuwide {
+         width: 100%;
+       }
+       #menu_icon {
+         visibility: hidden;
+       }
+
+       #mobile_menu {
+         display: none;
+       }
+
+
+       .pic1 {
+         position: fixed;
+         opacity: 100%;
+         width: 100%;
+         margin-top: -27%;
+       }
+
+       .placeholder {
+         width: 100%;
+         opacity: 0%;
+         height: auto;
+         margin-top: -27%;
+       }
+
+       .backtopgreen{
+         margin-top: -22%;
+         height: 100px;
+         background-color: var(--green);
+         margin-bottom: -95px;
+         clip-path: polygon(
+         0 75px, /* left top */
+         100% 0, /* right top */
+         100% 100%, /* right bottom */
+         0 100% /* left bottom */);
+       }
+
+       .back {
+         background-color: white;
+         font-size: 1.2em;
+         clip-path: polygon(
+         0 75px, /* left top */
+         100% 0, /* right top */
+         100% 100%, /* right bottom */
+         0 100% /* left bottom */
+       );
+       }
+       .back a{
+         text-decoration: none;
+       }
+
+
+       .back h1 {
+         padding-top: 150px;
+         font-size: 2em;
+         width: 50%;
+         float: left;
+         transform: translateY(50px);
+       }
+
+       #inh {
+         font-weight: bold;
+         color: var(--green);
+         padding-left: 10px;
+         margin-top: -10px;
+         width: 50%;
+         transform: translateY(50px);
+         float: left;
+       }
+
+       #tel {
+         width: 300px;
+         display: inline-flex;
+         padding-top: 20px;
+         margin-top: -150px;
+         padding-bottom: 20px;
+         font-weight: bold;
+         color: var(--gray);
+           border-radius: 10px;
+           border-color: var(--creme);
+           border-width: 3px;
+           border-style:solid;
+       }
+        .teltab{
+        width: 50%;
+        float: right;
+        transform: translateY(-50px);
+        }
+
+       #tel span {
+         width: 100px;
+         font-size: 2em;
+         color: var(--grayl);
+       }
+       #tel p {
+         padding-top: 7px;
+         text-decoration: none;
+       }
+
+       #tel1 {
+         display: none;
+       }
+       #adress1 {
+         display: none;
+       }
+
+       #adress {
+         border-radius: 10px;
+         border-color: var(--creme);
+         border-width: 3px;
+         border-style:solid;
+         border-radius: 10px;
+
+         padding-bottom: 40px;
+         width: 300px;
+         margin-top: 50px;
+         padding-top: 20px;
+         font-weight: bold;
+         color: var(--gray);
+       }
+       #adress p {
+         float: left;
+       }
+       #adress span {
+         float: left;
+         width: 100px;
+         font-size: 2em;
+         color: var(--grayl);
+       }
+
+       #info {
+         margin-top: 50px;
+         padding-top: 380px;
+         color: var(--gray);
+         font-size: 1em;
+         width: 100%;
+       }
+
+       #biergarten {
+         padding-top: 10px;
+         color: var(--green);
+         font-size: 0.8em;
+         margin-bottom: 100px
+       }
+
+     .offnungszeiten {
+         padding-bottom: 60px;
+         margin-bottom: 60px;
+         background-color: var(--creme);
+         height: 475px;
+       }
+     .green {
+       float: left;
+       background-color: var(--green);
+       margin-bottom: 40px;
+       width: 960px;
+       height: 534.5px;
+     }
+
+     .pic2 {
+       width: 99%;
+       height: 100%;
+     }
+
+     .t0 {
+       padding-top: 70px;
+       padding-bottom: 10px;
+       font-size: 2em;
+       font-weight: bolder;
+     }
+     .t1 {
+       padding-top: 50px;
+       color: var(--green);
+       font-weight: 200;
+       font-size: 1.4em;
+     }
+
+     .t2 {
+       color: var(--grayl);
+       font-size: 1em;
+     }
+     .speisekarte {
+       padding-bottom: 100vh;
+       width: 80%;
+       padding-left: 10%;
+     }
+     .speisekarte p {
+       padding-bottom: 30px;
+       padding-top: 60px;
+       font-size: 2em;
+       font-weight: bolder;
+
+     }
+     .speisekarte a {
+       margin-right: 5px;
+       margin-left: 5px;
+       font-size: 1em;
+       color: var(--grayl);
+       padding: 10px;
+       border-radius: 7px;
+       transition-duration: 0.2s;
+     }
+     .speisekarte a:hover{
+       background-color: black;
+       padding: 10px;
+       border-radius: 7px;
+       transition-duration: 0.5s;
+     }
+
+
+
+     .kontakt img {
+       width: 100%;
+       height: auto;
+       clip-path: polygon(
+       0 900px, /* left top */
+       100% 900px, /* right top */
+       100% 100%, /* right bottom */
+       0 100% /* left bottom */
+     );
+     }
+
+     #greenkontakt {
+       height: 110px;
+       margin-top: -110px;
+       background-color: var(--green);
+       clip-path: polygon(
+       0 75px, /* left top */
+       100% 0px, /* right top */
+       100% 100%, /* right bottom */
+       0 100% /* left bottom */
+     );
+
+     }
+
+     .konwhite {
+       padding-top: 80px;
+       margin-top: -105px;
+       padding-bottom: 200px;
+       background-color: white;
+       clip-path: polygon(
+       0 75px, /* left top */
+       100% 0px, /* right top */
+       100% 100%, /* right bottom */
+       0 100% /* left bottom */
+     );
+     }
+     #kon {
+       padding-top: 40px;
+       font-size: 2em;
+       font-weight: bolder;
+     }
+     #text {
+       color: var(--grayl);
+       width: 80%;
+       padding-top: 20px;
+       padding-bottom: 120px;
+       font-size: 1em;
+     }
+     #telad {
+       position: absolute;
+       color: var(--gray);
+       font-size: 1.4em;
+       padding-top: 15px;
+       font-weight: bolder;
+       transform:translateX(620px);
+     }
+     #telad2 {
+       position: absolute;
+       color: var(--gray);
+       font-size: 1.4em;
+       font-weight: bolder;
+       transform:translateX(1040px);
+     }
+
+     .footer p {
+       font-size: 1em;
+       color: var(--gray);
+       float: left;
+       font-weight: bold;
+       margin-left: 40px;
+     }
+
+     .footer {
+       position:static;
+       bottom: -20px;
+       background-color: var(--creme);
+       width: 100%;
+       padding-top: 10px;
+       padding-bottom: 10px;
+     }
+     #imp {
+       color: var(--green);
+       float: right;
+       font-weight: bold;
+       text-decoration: none;
+       margin-right: 40px;
+     }
+     #dat {
+       color: var(--green);
+       float: right;
+       font-weight: bold;
+       text-decoration: none;
+       margin-right: 40px;
+
+     }
+
+     #sk {
+       font-size: 1em;
+       color: var(--grayl);
+       text-decoration: none;
+     }
+
+     .footerinh {
+       width: 1920px;
+       max-width: 1920px;
+       margin-left: 50%;
+
+       transform: translate(-960px);
+     }
   }
 
-    .backtopgreen{
-      margin-top: -20%;
-      height: 58px;
-      background-color: var(--green);
-      margin-bottom: -55px;
-      clip-path: polygon(
-      0 75px, /* left top */
-      100% 0, /* right top */
-      100% 100%, /* right bottom */
-      0 100% /* left bottom */);
-    }
-
-    .back {
-      background-color: white;
-      font-size: 1.2em;
-      clip-path: polygon(
-      0 75px, /* left top */
-      100% 0, /* right top */
-      100% 100%, /* right bottom */
-      0 100% /* left bottom */
-    );
-    }
-    .back a{
-      text-decoration: none;
-    }
-
-
-    .back h1 {
-      padding-top: 50px;
-      font-size: 1.6em;
-    }
-
-    #inh {
-      font-weight: bold;
-      color: var(--green);
-      padding-left: 10px;
-      margin-top: -10px;
-    }
-
-    #tel {
-      width: 300px;
-      display: inline-flex;
-      padding-top: 20px;
-      margin-top: 50px;
-      padding-bottom: 20px;
-      font-weight: bold;
-      color: var(--gray);
-        border-radius: 10px;
-        border-color: var(--creme);
-        border-width: 3px;
-        border-style:solid;
-    }
-
-    #tel span {
-      width: 100px;
-      font-size: 2em;
-      color: var(--grayl);
-    }
-    #tel p {
-      padding-top: 7px;
-      text-decoration: none;
-    }
-
-    #adress {
-      border-radius: 10px;
-      border-color: var(--creme);
-      border-width: 3px;
-      border-style:solid;
-      border-radius: 10px;
-
-      padding-bottom: 40px;
-      width: 300px;
-      margin-top: 30px;
-      padding-top: 20px;
-      font-weight: bold;
-      color: var(--gray);
-    }
-    #adress p {
-      float: left;
-    }
-    #adress span {
-      float: left;
-      width: 100px;
-      font-size: 2em;
-      color: var(--grayl);
-    }
-
-    #info {
-      padding-top: 60px;
-      color: var(--gray);
-      font-size: 1em;
-    }
-
-    #biergarten {
-      padding-top: 10px;
-      color: var(--green);
-      font-size: 0.8em;
-      margin-bottom: 100px
-    }
-
-
-  .offnungszeiten {
-      padding-bottom: 60px;
-      background-color: var(--creme);
-    }
-  .green {
-    float: left;
-    height: 100%;
-    background-color: var(--green);
-    margin-bottom: 40px;
-  }
-
-  .pic2 {
-    float: right;
-    width: 99%;
-    height: auto;
-  }
-
-  .t0 {
-    font-size: 1.6em;
-    font-weight: 800;
-  }
-  .t1 {
-    padding-top: 40px;
-    color: var(--green);
-    font-weight: 600;
-  }
-
-  .t2 {
-    color: var(--grayl);
-  }
-  .speisekarte {
-    padding-bottom: 100vh;
-    width: 80%;
-    padding-left: 10%;
-  }
-  .speisekarte p {
-    padding-bottom: 30px;
-    padding-top: 40px;
-    font-size: 1.6em;
-    font-weight: 800;
-
-  }
-  .speisekarte a {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 0.8em;
-    color: var(--grayl);
-  }
-
-
-
-  .kontakt img {
-    width: 100%;
-    height: auto;
-    clip-path: polygon(
-    0 100px, /* left top */
-    100% 100px, /* right top */
-    100% 100%, /* right bottom */
-    0 100% /* left bottom */
-  );
-  }
-
-  #greenkontakt {
-    height: 103px;
-    margin-top: -103px;
-    background-color: var(--green);
-    clip-path: polygon(
-    0 35px, /* left top */
-    100% 0px, /* right top */
-    100% 100%, /* right bottom */
-    0 100% /* left bottom */
-  );
-
-  }
-
-  .konwhite {
-    padding-top: 50px;
-    margin-top: -100px;
-    background-color: white;
-    clip-path: polygon(
-    0 35px, /* left top */
-    100% 0px, /* right top */
-    100% 100%, /* right bottom */
-    0 100% /* left bottom */
-  );
-  }
-  #kon {
-    font-size: 1.6em;
-    font-weight: 800;
-  }
-  #text {
-    color: var(--grayl);
-    width: 80%;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    font-size: 0.8em;
-  }
-  #telad {
-    color: var(--gray);
-    font-size: 1em;
-    padding-bottom: 30px;
-    font-weight: 800;
-  }
-
-  .footer p {
-    font-size: 0.6em;
-    color: var(--creme);
-  }
-
-  .footer {
-    position:static;
-    bottom: -20px;
-    background-color: black;
-    width: 100%;
-    padding-bottom: 10px;
-    margin-top: 50px;
-  }
-  #imp {
-    color: var(--green);
-    float: left;
-    text-align: center;
-    width: 50%;
-    font-weight: 800;
-    text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  #dat {
-    color: var(--green);
-    float: right;
-    text-align: center;
-    width: 50%;
-    font-weight: 800;
-    text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  #sk {
-    font-size: 0.6em;
-    color: var(--creme);
-    text-decoration: none;
-  }
-  }
 
 
 
@@ -879,14 +977,13 @@ mcb3.onclick = function () {
 
 
 
-
-
-  @media only screen and (min-width: 1201px){
+  @media only screen and (min-width: 1920px){
 .wrapper {
   position: relative;
-   max-width: 1200px;
-   margin-left: -600px;
+   width: 1920px;
+   margin-left: -960px;
    left: 50%;
+   background-color: red;
  }
 
      .mobile_nav {
@@ -910,7 +1007,7 @@ mcb3.onclick = function () {
 
      .mobile_nav img {
        float: left;
-       margin-left: 15px;
+       margin-left:  100px;
        width: 80px;
        height: auto;
        margin-top: 5px;
@@ -919,11 +1016,22 @@ mcb3.onclick = function () {
        float: right;
        color: white;
        padding-top: 13px;
-       padding-right: 45px;
+       padding-right: 5%;
        font-size: 1.2em;
        text-decoration: none;
+       transition-duration: 0.3s;
+     }
+
+     .mobile_nav a:hover {
+       transform:translateY(5px);
+       transition-duration: 0.3s;
+       text-decoration: overline;
+       text-decoration-color: var(--green);
      }
      #menuwide {
+       width: 1920px;
+       padding-left: 50%;
+       transform: translate(-960px);
      }
      #menu_icon {
        visibility: hidden;
@@ -935,26 +1043,24 @@ mcb3.onclick = function () {
 
 
      .pic1 {
-       width: 100%;
-       max-width: 1200px;
        position: fixed;
        opacity: 100%;
+       width: 1920px;
+       margin-top: -480px;
+     }
+
+     .placeholder {
+     width: 1920px;
+       opacity: 0%;
+       height: auto;
        margin-top: -300px;
      }
 
-   .placeholder {
-     opacity: 0%;
-     width: 100%;
-     max-width: 1200px;
-     height: auto;
-     margin-top: -300px;
-   }
-
      .backtopgreen{
-       margin-top: -20%;
-       height: 58px;
+       margin-top: -30%;
+       height: 100px;
        background-color: var(--green);
-       margin-bottom: -55px;
+       margin-bottom: -95px;
        clip-path: polygon(
        0 75px, /* left top */
        100% 0, /* right top */
@@ -978,108 +1084,122 @@ mcb3.onclick = function () {
 
 
      .back h1 {
-       padding-top: 50px;
-       font-size: 1.6em;
+       position:absolute;
+       padding-top: 240px;
+       font-size: 3em;
+       left: 280px;
+
+     }
+     .back h1::after {
+       position: absolute;
+       content: "";
+       height: 5px;
+       width: 355px;
+       background-color: var(--green);
+       margin-left: -358px;
+       margin-top: 60px;
      }
 
      #inh {
-       font-weight: bold;
-       color: var(--green);
-       padding-left: 10px;
-       margin-top: -10px;
+       visibility: hidden;
      }
 
+    #tel1 {
+    width: 400px;
+    padding-top: 175px;
+    color: var(--gray);
+    transform: translate(420px);
+    }
+    #tel1 span {
+      float: left;
+      color: var(--green);
+      font-size: 2.5em;
+    }
+    #tel1 p {
+      float: right;
+      color: var(--gray);
+      font-weight: 600;
+      font-size: 2.2em;
+      padding-bottom: 50px;
+    }
      #tel {
-       width: 300px;
-       display: inline-flex;
-       padding-top: 20px;
-       margin-top: 50px;
-       padding-bottom: 20px;
-       font-weight: bold;
-       color: var(--gray);
-         border-radius: 10px;
-         border-color: var(--creme);
-         border-width: 3px;
-         border-style:solid;
+       display: none;
      }
-
-     #tel span {
-       width: 100px;
-       font-size: 2em;
-       color: var(--grayl);
-     }
-     #tel p {
-       padding-top: 7px;
-       text-decoration: none;
-     }
-
      #adress {
-       border-radius: 10px;
-       border-color: var(--creme);
-       border-width: 3px;
-       border-style:solid;
-       border-radius: 10px;
+       display: none;
+     }
 
-       padding-bottom: 40px;
-       width: 300px;
-       margin-top: 30px;
-       padding-top: 20px;
-       font-weight: bold;
+     #adress1 {
+     transform: translate(590px);
+     color: var(--gray);
+     width: 560px;
+     }
+     #adress1 span {
+       position: absolute;
+       float: right;
+       color: var(--green);
+       font-size: 2.5em;
+       margin-top: 105px;
+       margin-left: -235px;
+     }
+     #adress1 p {
+       float: left;
        color: var(--gray);
-     }
-     #adress p {
-       float: left;
-     }
-     #adress span {
-       float: left;
-       width: 100px;
-       font-size: 2em;
-       color: var(--grayl);
+       font-weight: 600;
+       font-size: 2.2em;
      }
 
      #info {
-       padding-top: 60px;
+       margin-top: -130px;
        color: var(--gray);
-       font-size: 1em;
+       font-size: 1.2em;
+       padding-left: 920px;
      }
 
      #biergarten {
-       padding-top: 10px;
+       padding-top: 300px;
        color: var(--green);
-       font-size: 0.8em;
-       margin-bottom: 100px
+       font-size: 1em;
+       margin-bottom: 200px;
+       padding-left: 750px;
      }
 
 
    .offnungszeiten {
        padding-bottom: 60px;
+       margin-bottom: 60px;
        background-color: var(--creme);
+       height: 475px;
      }
    .green {
      float: left;
-     height: 100%;
      background-color: var(--green);
      margin-bottom: 40px;
+     width: 960px;
+     height: 534.5px;
    }
 
    .pic2 {
-     float: right;
      width: 99%;
-     height: auto;
+     height: 100%;
    }
 
    .t0 {
-     font-size: 1.6em;
-     font-weight: 800;
+     padding-top: 70px;
+     padding-bottom: 10px;
+     font-size: 2em;
+     font-weight: bolder;
    }
    .t1 {
-     padding-top: 40px;
+     padding-top: 50px;
      color: var(--green);
-     font-weight: 600;
+     font-weight: 200;
+     font-size: 1.4em;
    }
 
    .t2 {
      color: var(--grayl);
+     font-size: 1em;
    }
    .speisekarte {
      padding-bottom: 100vh;
@@ -1088,16 +1208,25 @@ mcb3.onclick = function () {
    }
    .speisekarte p {
      padding-bottom: 30px;
-     padding-top: 40px;
-     font-size: 1.6em;
-     font-weight: 800;
+     padding-top: 60px;
+     font-size: 2em;
+     font-weight: bolder;
 
    }
    .speisekarte a {
-     padding-left: 10px;
-     padding-right: 10px;
-     font-size: 0.8em;
+     margin-right: 5px;
+     margin-left: 5px;
+     font-size: 1em;
      color: var(--grayl);
+     padding: 10px;
+     border-radius: 7px;
+     transition-duration: 0.2s;
+   }
+   .speisekarte a:hover{
+     background-color: black;
+     padding: 10px;
+     border-radius: 7px;
+     transition-duration: 0.5s;
    }
 
 
@@ -1106,19 +1235,19 @@ mcb3.onclick = function () {
      width: 100%;
      height: auto;
      clip-path: polygon(
-     0 100px, /* left top */
-     100% 100px, /* right top */
+     0 900px, /* left top */
+     100% 900px, /* right top */
      100% 100%, /* right bottom */
      0 100% /* left bottom */
    );
    }
 
    #greenkontakt {
-     height: 103px;
-     margin-top: -103px;
+     height: 110px;
+     margin-top: -110px;
      background-color: var(--green);
      clip-path: polygon(
-     0 35px, /* left top */
+     0 75px, /* left top */
      100% 0px, /* right top */
      100% 100%, /* right bottom */
      0 100% /* left bottom */
@@ -1127,72 +1256,89 @@ mcb3.onclick = function () {
    }
 
    .konwhite {
-     padding-top: 50px;
-     margin-top: -100px;
+     padding-top: 80px;
+     margin-top: -105px;
+     padding-bottom: 200px;
      background-color: white;
      clip-path: polygon(
-     0 35px, /* left top */
+     0 75px, /* left top */
      100% 0px, /* right top */
      100% 100%, /* right bottom */
      0 100% /* left bottom */
    );
    }
    #kon {
-     font-size: 1.6em;
-     font-weight: 800;
+     padding-top: 40px;
+     font-size: 2em;
+     font-weight: bolder;
    }
    #text {
      color: var(--grayl);
      width: 80%;
-     padding-top: 30px;
-     padding-bottom: 50px;
-     font-size: 0.8em;
+     padding-top: 20px;
+     padding-bottom: 120px;
+     font-size: 1em;
    }
    #telad {
+     position: absolute;
      color: var(--gray);
-     font-size: 1em;
-     padding-bottom: 30px;
-     font-weight: 800;
+     font-size: 1.4em;
+     padding-top: 15px;
+     font-weight: bolder;
+     transform:translateX(620px);
+   }
+   #telad2 {
+     position: absolute;
+     color: var(--gray);
+     font-size: 1.4em;
+     font-weight: bolder;
+     transform:translateX(1040px);
    }
 
    .footer p {
-     font-size: 0.6em;
-     color: var(--creme);
+     font-size: 1em;
+     color: var(--gray);
+     float: left;
+     font-weight: bold;
+     margin-left: 40px;
    }
 
    .footer {
      position:static;
      bottom: -20px;
-     background-color: black;
+     background-color: var(--creme);
      width: 100%;
+     padding-top: 10px;
      padding-bottom: 10px;
-     margin-top: 50px;
    }
    #imp {
      color: var(--green);
-     float: left;
-     text-align: center;
-     width: 50%;
-     font-weight: 800;
+     float: right;
+     font-weight: bold;
      text-decoration: none;
-     padding-top: 20px;
-     padding-bottom: 20px;
+     margin-right: 40px;
    }
    #dat {
      color: var(--green);
      float: right;
-     text-align: center;
-     width: 50%;
-     font-weight: 800;
+     font-weight: bold;
      text-decoration: none;
-     padding-top: 20px;
-     padding-bottom: 20px;
+     margin-right: 40px;
+
    }
 
    #sk {
-     font-size: 0.6em;
-     color: var(--creme);
+     font-size: 1em;
+     color: var(--grayl);
      text-decoration: none;
+   }
+
+   .footerinh {
+     width: 1920px;
+     max-width: 1920px;
+     margin-left: 50%;
+
+     transform: translate(-960px);
    }
 }
 
