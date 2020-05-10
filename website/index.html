@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   </head>
   <body>
-
   </body>
 
   <div class="mobile_nav">
@@ -19,10 +18,10 @@
 
   <img src="../images/san_logo.png" alt="Logo Pizzeria SAN">
   <span id="menu_icon" class="material-icons-round">menu</span>
-  <a href="#kontakt" id="mcb3">Kontakt</a>
-  <a href="#speisekarte" id="mcb2">Speisekarte</a>
-  <a href="#offnungszeiten" id="mcb1">Öffnungszeiten</a>
-  <a href="#start" id="mcb">Start</a>
+  <a href="#kontakt" >Kontakt</a>
+  <a href="#speisekarte" >Speisekarte</a>
+  <a href="#offnungszeiten" >Öffnungszeiten</a>
+  <a href="#start" >Start</a>
 </div>
   </div>
   <div class="mobile_menu" id="mobile_menu">
@@ -126,10 +125,10 @@
 
 
 
-  <div class="kontakt" id="kontakt">
+  <div class="kontakt">
     <img class="pic3" src="../images/pic3.jpg" alt="">
     <div id="greenkontakt"></div>
-    <div class="konwhite">
+    <div class="konwhite" id="kontakt">
       <center>
       <p id="kon">Kontakt</p>
       <p id="text">Bei Fragen oder Reservierungen rufen Sie uns gerne an oder schreiben Sie uns eine E-mail</p>
@@ -188,9 +187,14 @@ mcb3.onclick = function () {
 
 <style media="screen">
   * {
+    visibility: hidden;
     scroll-behavior:smooth;
     margin: 0px;
     font-family: Gill Sans MT;
+  }
+  body {
+
+    background-color: var(--creme);
   }
   :root {
     --green: #6ca442;
@@ -528,6 +532,7 @@ mcb3.onclick = function () {
     font-size: 1em;
     padding-bottom: 30px;
     font-weight: bold;
+    padding-bottom: 60px;
   }
 
   .footer p {
@@ -541,7 +546,6 @@ mcb3.onclick = function () {
     background-color: black;
     width: 100%;
     padding-bottom: 10px;
-    margin-top: 50px;
   }
   #imp {
     color: var(--green);
@@ -583,12 +587,13 @@ mcb3.onclick = function () {
 
 
   @media only screen and (min-width: 1200px) {
+
+
     .wrapper {
       margin: auto;
       position: relative;
       width: 100%;
        max-width: 1920px;
-       background-color: red;
      }
 
      .mobile_nav {
@@ -652,6 +657,7 @@ mcb3.onclick = function () {
        opacity: 100%;
        width: 100%;
        max-width: 1920px;
+       margin-top: -15%;
        clip-path: polygon(
        0 0px, /* left top */
        100% 0, /* right top */
@@ -784,7 +790,8 @@ mcb3.onclick = function () {
 
    .offnungszeiten {
      z-index: -1;
-       margin-top: 210px;
+     padding-top: 50px;
+       margin-top: 160px;
        margin-bottom: 150px;
        background-color: var(--creme);
        height: 485px;
@@ -805,7 +812,7 @@ mcb3.onclick = function () {
    }
 
    .t0 {
-     padding-top: 70px;
+     padding-top: 55px;
      padding-bottom: 10px;
      font-size: 2em;
      font-weight: bolder;
@@ -823,7 +830,8 @@ mcb3.onclick = function () {
    }
    .speisekarte {
      position: absolute;
-     padding-top: 165vh;
+     margin-top: 1100px;
+     padding-top: 100px;
      width: 80%;
      padding-left: 10%;
    }
@@ -831,6 +839,7 @@ mcb3.onclick = function () {
      font-size: 2em;
      width: 100%;
      font-weight: bolder;
+     margin-bottom: 20px;
 
    }
    .speisekarte a {
@@ -838,7 +847,7 @@ mcb3.onclick = function () {
      margin-left: 5px;
      font-size: 1em;
      color: var(--grayl);
-     padding: 10px;
+     margin: 10px;
      border-radius: 7px;
      transition-duration: 0.2s;
    }
@@ -847,16 +856,15 @@ mcb3.onclick = function () {
      padding: 10px;
      border-radius: 7px;
      transition-duration: 0.5s;
+     margin: 0px;
    }
-
-
 
    .kontakt img {
      width: 100%;
      height: auto;
      clip-path: polygon(
-     0 40vw, /* left top */
-     100% 40vw, /* right top */
+     0 55%, /* left top */
+     100% 55%, /* right top */
      100% 100%, /* right bottom */
      0 100% /* left bottom */
    );
@@ -867,12 +875,11 @@ mcb3.onclick = function () {
      margin-top: -110px;
      background-color: var(--green);
      clip-path: polygon(
-     0 7vw, /* left top */
-     100% 0px, /* right top */
+     0 75px, /* left top */
+     100% 0, /* right top */
      100% 100%, /* right bottom */
      0 100% /* left bottom */
    );
-
    }
 
    .konwhite {
@@ -881,7 +888,7 @@ mcb3.onclick = function () {
      padding-bottom: 200px;
      background-color: white;
      clip-path: polygon(
-     0 7vw, /* left top */
+     0 75px, /* left top */
      100% 0px, /* right top */
      100% 100%, /* right bottom */
      0 100% /* left bottom */
@@ -958,25 +965,11 @@ mcb3.onclick = function () {
      padding-bottom: 10px;
      width: 100%;
      max-width: 1920px;
-     margin-left: 50%;
+     margin: auto;
      background-color: var(--creme);
-     transform: translate(-960px);
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* {
+  visibility: visible;
+}
 </style>
