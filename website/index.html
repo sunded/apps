@@ -38,9 +38,9 @@
 
 
 
-<div class="start" id="start">
+<div class="start"  id="start">
   <img class="pic1" src="../images/pic1.jpg" alt="">
-    <img class="placeholder" src="../images/pic1.jpg" alt="">
+
   <div class="backtopgreen">
   </div>
   <div class="back">
@@ -191,6 +191,7 @@ mcb3.onclick = function () {
     scroll-behavior:smooth;
     margin: 0px;
     font-family: Gill Sans MT;
+    font-display: swap;
   }
   body {
 
@@ -212,6 +213,8 @@ mcb3.onclick = function () {
     }
 
     .mobile_nav {
+      -webkit-transform: translate3d(0,0,1px);
+      transform: translate3d(0,0,1px);
       z-index: 100;
       position: sticky;
       top: 0px;
@@ -299,22 +302,18 @@ mcb3.onclick = function () {
       text-decoration: none;
     }
 
-    .pic1 {
+    .pic1 {-webkit-transform: translate3d(0,0,-1px);
+      transform: translate3d(0,0,-1px);
+      top: 40px;
       width: 100%;
       position: fixed;
       opacity: 100%;
       margin-top: -5vw;
     }
 
-  .placeholder {
-    opacity: 0%;
-    width: 100%;
-    height: auto;
-    margin-top: 30vw;
-  }
 
     .backtopgreen{
-      margin-top: -45vw;
+      margin-top: 35vw;
       height: 13vw;
       background-color: var(--green);
       margin-bottom: -12.5vw;
@@ -326,6 +325,7 @@ mcb3.onclick = function () {
     }
 
     .back {
+      padding-top: 30px;
       background-color: white;
       font-size: 1.2em;
       clip-path: polygon(
@@ -498,6 +498,7 @@ mcb3.onclick = function () {
   }
 
   .konwhite {
+    text-decoration: none;
     padding-top: 10vw;
     margin-top: -14.5vw;
     background-color: white;
@@ -653,11 +654,12 @@ mcb3.onclick = function () {
 
 
      .pic1 {
+       top: 100px;
        position: fixed;
        opacity: 100%;
        width: 100%;
        max-width: 1920px;
-       margin-top: -15%;
+       margin-top: -150px;
        clip-path: polygon(
        0 0px, /* left top */
        100% 0, /* right top */
@@ -665,19 +667,9 @@ mcb3.onclick = function () {
        0 100% /* left bottom */);
      }
 
-     .placeholder {
-       width: 100%;
-       opacity: 0%;
-       height: auto;
-       clip-path: polygon(
-       0 0px, /* left top */
-       100% 0, /* right top */
-       100% 80%, /* right bottom */
-       0 80% /* left bottom */);
-     }
 
      .backtopgreen{
-       margin-top: -30%;
+       margin-top: 30%;
        height: 100px;
        background-color: var(--green);
        margin-bottom: -95px;
