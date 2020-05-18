@@ -114,12 +114,26 @@
     <p>Speisekarte</p>
     <a href="#Pizza">Pizza</a>
     <a href="#Pasta">Pasta</a>
+    <a href="#Vorspeisen">Vorspeisen</a>
+    <a href="#Salate">Salate</a>
     <a href="#Fleischgerichte">Fleischgerichte</a>
     <a href="#Fisch">Fisch</a>
-    <a href="#Salate">Salate</a>
-    <a href="#Vorspeisen">Vorspeisen</a>
-    <a href="#Nachspeisen">Nachspeisen</a>
-    </center>
+    <a href="#Nachspeisen">Desserts</a>
+
+    <div id="Pizza" class="Pizza"></div>
+    <div  id="Pasta" class="Pasta"></div>
+    <div  id="Vorspeisen" class="Vorspeisen"></div>
+    <div  id="Salate" class="Salate"></div>
+    <div  id="Fleischgerichte" class="Fleischgerichte"></div>
+    <div  id="Fisch" class="Fisch"></div>
+    <div  id="Nachspeisen" class="Nachspeisen"></div>
+
+
+
+    <br />
+    <img class="speisekartepic" src="../images/Pizzeria_SAN_Speisekarte2.jpg" alt="">
+</center>
+
   </div>
 
 
@@ -198,7 +212,7 @@ mcb3.onclick = function () {
     background-color: var(--creme);
   }
   :root {
-    --green: #6ca442;
+    --green: #7aa409;
     --creme: #F1F0EF;
     --gray: #535353;
     --grayl: rgba(175, 175, 175, 1);
@@ -452,9 +466,8 @@ mcb3.onclick = function () {
     color: var(--grayl);
   }
   .speisekarte {
-    padding-bottom: 100vh;
-    width: 80%;
-    padding-left: 10%;
+    width: 90%;
+    padding-left: 5%;
     font-weight: bolder;
   }
   .speisekarte p {
@@ -471,9 +484,45 @@ mcb3.onclick = function () {
     color: var(--grayl);
   }
 
+  .speisekartepic {
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .Pizza {
+    position: absolute;
+    margin-top: 30px;
+  }
+
+  .Pasta {
+    position: absolute;
+    margin-top: 1040px;
+  }
+  .Vorspeisen {
+    position: absolute;
+    margin-top: 1550px;
+  }
+  .Salate {
+    position: absolute;
+    margin-top: 1747px;
+  }
+  .Fleischgerichte {
+    position: absolute;
+    margin-top: 1940px;
+  }
+  .Fisch {
+     position: absolute;
+     margin-top: 2085px;
+     }
+   .Nachspeisen {
+      position: absolute;
+      margin-top: 2160px;
+      }
+
 
 
   .kontakt img {
+    margin-top: -35%;
     width: 100%;
     height: auto;
     clip-path: polygon(
@@ -655,7 +704,7 @@ mcb3.onclick = function () {
 
 
      .pic1 {
-       top: 100px;
+       top: 70px;
        position: fixed;
        opacity: 100%;
        width: 100%;
@@ -821,11 +870,10 @@ mcb3.onclick = function () {
      font-size: 1em;
    }
    .speisekarte {
-     position: absolute;
+     position: relative;
      margin-top: 1100px;
      padding-top: 100px;
-     width: 80%;
-     padding-left: 10%;
+     width: 100%;
    }
    .speisekarte p {
      font-size: 2em;
@@ -851,7 +899,42 @@ mcb3.onclick = function () {
      margin: 0px;
    }
 
+   .speisekartepic {
+     padding-top: 50px;
+   }
+
+   .Pizza {
+     position: absolute;
+     margin-top: 30px;
+   }
+
+   .Pasta {
+     position: absolute;
+     margin-top: 1240px;
+   }
+   .Vorspeisen {
+     position: absolute;
+     margin-top: 1840px;
+   }
+   .Salate {
+     position: absolute;
+     margin-top: 2080px;
+   }
+   .Fleischgerichte {
+     position: absolute;
+     margin-top: 2320px;
+   }
+   .Fisch {
+      position: absolute;
+      margin-top: 2485px;
+      }
+    .Nachspeisen {
+       position: absolute;
+       margin-top: 2570px;
+       }
+
    .kontakt img {
+     margin-top: -35%;
      width: 100%;
      height: auto;
      clip-path: polygon(
