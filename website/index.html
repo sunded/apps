@@ -16,7 +16,7 @@
 
 <div id="menuwide">
 
-  <img src="../images/san_logo.png" alt="Logo Pizzeria SAN">
+    <img src="../images/san_logo.png" alt="Logo Pizzeria SAN"onclick="window.location.href='index.html'">
   <span id="menu_icon" class="material-icons-round">menu</span>
   <a href="#kontakt" >Kontakt</a>
   <a href="#speisekarte" >Speisekarte</a>
@@ -86,8 +86,8 @@
 
 </div>
 
-  <p id="info">Herzlich Willkommen bei Ihrer Pizzeria SAN</p>
-  <p id="biergarten">Bei schönem Wetter Biergartenbetrieb</p>
+  <p id="info">Herzlich Willkommen auf der Webseite Ihrer</p>
+  <p id="biergarten">Pizzeria SAN</p>
 
   </center>
 
@@ -147,7 +147,7 @@
       <p id="kon">Kontakt</p>
       <p id="text">Bei Fragen oder Reservierungen rufen Sie uns gerne an oder schreiben Sie uns eine E-mail</p>
       <p id="telad">09225 / 20 44 67</p>
-      <p id="telad2">mail@pizzeria-san.de</p>
+      <p id="telad2">info@pizzeria-san.de</p>
       </center>
   </div>
   </div>
@@ -160,9 +160,8 @@
       <div class="footerinh">
 
 
-      <a href="/impressum" id="imp">Impressum</a>
-      <a href="/datenschutz" id="dat">Datenschutz</a>
-      <center><p>©️ Pizzeria SAN 2020</p><a id="sk" href="">Website erstellt von Sebastian Klenk</a></center>
+      <a href="impressum.html" id="imp">Impressum</a>
+      <center><p>©️ Pizzeria SAN 2020</p><a id="sk" target="_blank" rel="noopener noreferrer" href="https://sebastianklenk.com/">Website erstellt von Sebastian Klenk</a></center>
       </div>
     </div>
 
@@ -204,9 +203,25 @@ mcb3.onclick = function () {
     visibility: hidden;
     scroll-behavior:smooth;
     margin: 0px;
-    font-family: Gill Sans MT;
     font-display: swap;
+      font-family: 'Amiko';
   }
+
+  /* amiko-regular - latin */
+  @font-face {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amiko-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Amiko'), local('Amiko-Regular'),
+         url('../fonts/amiko-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/amiko-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/amiko-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/amiko-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/amiko-v4-latin-regular.svg#Amiko') format('svg'); /* Legacy iOS */
+  }
+
+
   body {
 
     background-color: var(--creme);
@@ -283,7 +298,7 @@ mcb3.onclick = function () {
       transform: translateY(-190px);
         visibility: hidden;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.2em;
         width: 100%;
         color: var(--gray);
         background-color: var(--creme);
@@ -294,7 +309,7 @@ mcb3.onclick = function () {
     transform: translateY(0px);
       visibility: visible;
       text-align: center;
-      font-size: 1.5em;
+      font-size: 1.2em;
       font-weight: bold;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -341,7 +356,7 @@ mcb3.onclick = function () {
       transform: translate3d(0,0,1px);
       padding-top: 30px;
       background-color: white;
-      font-size: 1.2em;
+      font-size: 1em;
       clip-path: polygon(
       0 7vw, /* left top */
       100% 0, /* right top */
@@ -490,32 +505,32 @@ mcb3.onclick = function () {
 
   .Pizza {
     position: absolute;
-    margin-top: 30px;
+    bottom: 76%;
   }
 
   .Pasta {
     position: absolute;
-    margin-top: 1040px;
+    bottom: 47%;
   }
   .Vorspeisen {
     position: absolute;
-    margin-top: 1550px;
+    bottom: 33.5%;
   }
   .Salate {
     position: absolute;
-    margin-top: 1747px;
+    bottom: 28.5%;
   }
   .Fleischgerichte {
     position: absolute;
-    margin-top: 1940px;
+    bottom: 24%;
   }
   .Fisch {
      position: absolute;
-     margin-top: 2085px;
+     bottom: 20.5%;
      }
    .Nachspeisen {
-      position: absolute;
-      margin-top: 2160px;
+      position:absolute;
+      bottom: 19%;
       }
 
 
@@ -588,14 +603,15 @@ mcb3.onclick = function () {
   .footer p {
     font-size: 0.6em;
     color: var(--creme);
+    padding-top: 10px;
   }
-
   .footer {
+    margin-top: 25px;
     position: static;
-    bottom: 0;
+    bottom:0;
     background-color: black;
     width: 100%;
-    padding-bottom: 10px;
+    height: 50px;
   }
   #imp {
     color: var(--green);
@@ -604,8 +620,7 @@ mcb3.onclick = function () {
     width: 50%;
     font-weight: bolder;
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
   }
   #dat {
     color: var(--green);
@@ -614,8 +629,7 @@ mcb3.onclick = function () {
     width: 50%;
     font-weight: bolder;
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height:50px;
   }
 
   #sk {
@@ -657,7 +671,7 @@ mcb3.onclick = function () {
      }
      .mobile_nav::after {
        position: absolute;
-       margin-top: 22px;
+       margin-top: 20px;
        left: 0;
        content: "";
        width: 100%;
@@ -675,9 +689,9 @@ mcb3.onclick = function () {
      .mobile_nav a {
        float: right;
        color: white;
-       padding-top: 13px;
+       padding-top: 15px;
        padding-right: 5%;
-       font-size: 1.2em;
+       font-size: 1em;
        text-decoration: none;
        transition-duration: 0.3s;
      }
@@ -731,13 +745,17 @@ mcb3.onclick = function () {
 
      .back {
        background-color: white;
-       font-size: 1.2em;
+       font-size: 1em;
        clip-path: polygon(
        0 75px, /* left top */
        100% 0, /* right top */
        100% 100%, /* right bottom */
        0 100% /* left bottom */
      );
+     }
+     .back p {
+       font-size: 1em;
+       font-weight: bold;
      }
      .back a{
        text-decoration: none;
@@ -773,14 +791,14 @@ mcb3.onclick = function () {
     }
     #tel1 span {
       color: var(--green);
-      font-size: 2.5em;
+      font-size: 2.2em;
       padding-right: 30px;
       padding-left: 15%;
     }
     #tel1 p {
       color: var(--gray);
       font-weight: bold;
-      font-size: 2.2em;
+      font-size: 2em;
       margin-bottom: 40px;
     }
      #tel {
@@ -796,7 +814,7 @@ mcb3.onclick = function () {
      }
      #adress1 span {
        color: var(--green);
-       font-size: 2.5em;
+       font-size: 2.2em;
        padding-right: 30px;
        padding-left: 15%;
        margin-top: 20px;
@@ -805,7 +823,7 @@ mcb3.onclick = function () {
      #adress1 p {
        color: var(--gray);
        font-weight: 600;
-       font-size: 2.2em;
+       font-size: 2em;
        float: left;
 
      }
@@ -854,8 +872,8 @@ mcb3.onclick = function () {
    .t0 {
      padding-top: 55px;
      padding-bottom: 10px;
-     font-size: 2em;
-     font-weight: bolder;
+     font-size: 1.4em !important;
+     font-weight: bolder !important;
    }
    .t1 {
      padding-top: 50px;
@@ -909,27 +927,27 @@ mcb3.onclick = function () {
 
    .Pasta {
      position: absolute;
-     margin-top: 1240px;
+     margin-top: 1640px;
    }
    .Vorspeisen {
      position: absolute;
-     margin-top: 1840px;
+     margin-top: 2470px;
    }
    .Salate {
      position: absolute;
-     margin-top: 2080px;
+     margin-top: 2800px;
    }
    .Fleischgerichte {
      position: absolute;
-     margin-top: 2320px;
+     margin-top: 3100px;
    }
    .Fisch {
       position: absolute;
-      margin-top: 2485px;
+      margin-top: 3340px;
       }
     .Nachspeisen {
        position: absolute;
-       margin-top: 2570px;
+       margin-top: 3450px;
        }
 
    .kontakt img {
@@ -1029,7 +1047,7 @@ mcb3.onclick = function () {
    }
 
    #sk {
-     font-size: 1em;
+     font-size: 0.8em;
      color: var(--grayl);
      text-decoration: none;
    }
