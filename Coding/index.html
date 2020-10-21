@@ -178,6 +178,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
   </head>
+
+  <div id="msg" style="font-size:largest;">
+<!-- you can set whatever style you want on this -->
+Loading, please wait...
+</div>
+<div id="body" style="display:none;">
+<!-- everything else -->
+
     <script>
     var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -538,4 +546,12 @@ window.onscroll = function() {
   impopen.onclick = function () {
         imp.classList.toggle ("checked");
   }
+</script>
+
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#body').show();
+    $('#msg').hide();
+});
 </script>
