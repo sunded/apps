@@ -51,7 +51,7 @@
 		"year": "2020",
 		"month": "November",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -60,8 +60,8 @@
 		"lara190n": 190,
 		"luca255n": 255,
 		"luca190n": 45,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 45,
@@ -75,7 +75,7 @@
 		"year": "2020",
 		"month": "Oktober",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -84,12 +84,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 45,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -99,7 +99,7 @@
 		"year": "2020",
 		"month": "September",
 		"lilly255": 255,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -108,12 +108,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 45,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -123,7 +123,7 @@
 		"year": "2020",
 		"month": "August",
 		"lilly255": 0,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -132,12 +132,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 190,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -147,7 +147,7 @@
 		"year": "2020",
 		"month": "Juli",
 		"lilly255": 0,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -156,12 +156,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 190,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -171,7 +171,7 @@
 		"year": "2020",
 		"month": "Juni",
 		"lilly255": 0,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -180,12 +180,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 190,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -195,7 +195,7 @@
 		"year": "2020",
 		"month": "Mai",
 		"lilly255": 0,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -204,12 +204,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 190,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
@@ -219,7 +219,7 @@
 		"year": "2020",
 		"month": "April",
 		"lilly255": 0,
-		"niko255": 255,
+		"niko255": 0,
 		"jakob255": 0,
 		"luca255": 0,
 		"luis255": 0,
@@ -228,12 +228,12 @@
 		"lara190n": 190,
 		"luca255n": 0,
 		"luca190n": 190,
-		"niko255n": 255,
-		"niko190n": 45,
+		"niko255n": 0,
+		"niko190n": 190,
 
 
 		"lilly190": 190,
-		"niko190": 45,
+		"niko190": 190,
 		"jakob190": 190,
 		"luca190": 190,
 		"luis190": 190
